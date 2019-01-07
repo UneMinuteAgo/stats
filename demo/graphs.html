@@ -109,7 +109,6 @@
                     })
                 ).range(
                     d3.quantize(function(t){
-                        console.log(t);
                         return d3.interpolateSpectral(t * 0.8 + 0.1);
                     }, data.length)
                 );
@@ -120,7 +119,7 @@
 
                 // d3.quantize() je pense qu'il traduit la couleur RGB sur une échelle de 0 à 1
 
-                // d3.scaleOrdinal().range() applique les valeyur quantizé aux valeur enregistrée dans domaine
+                // d3.scaleOrdinal().range() applique les valeurs quantizées aux valeurs enregistrées dans domain
 
                 // En gros,
                 //  - On créer une echelle ordonal de couleur
@@ -148,8 +147,8 @@
                 // Création du moteur de dispatch des données en Pie
                 var pie = d3.pie()
                     .padAngle(self._arcPad) // Angle de séparation des différentes valeur
-                    //.sort(null)                   // Default : X > x
-                    .value(mapFn);                // Function pour trouver la valeur utile
+                    //.sort(null)             // Default : X > x
+                    .value(mapFn);          // Function pour trouver la valeur utile
 
                 // Répartition des données en part représentative en fonction de leur valeur utile
                 var arcs = pie(data);
@@ -161,7 +160,7 @@
                     //-- Selectionner le SVG cible
                     var svg = d3.select("svg");
 
-                    //-- Création d'une zone de travail
+                    //-- Création des portions de valeurs
                     var g = svg.append('g');
                         // Déplacement du groupe au centre
                         g.attr("transform", function() {
@@ -169,7 +168,10 @@
                             var vCenter = self._height / 2;
 
                             return "translate(" + hzCenter + "," + vCenter + ")";
-                        });
+                        })
+                        .attr("text-anchor", "middle")
+                        .style("font", "0.8rem sans-serif");
+
                         // Prévoir de selectionner tous les éléments que nous allons construire
                         g.selectAll("path")
                         // Envoie des valeures dispatchées
@@ -184,10 +186,47 @@
                         })
                         // Définir la valeur de D pour la shape PATH (cf SVG)
                         .attr('d', self.arc())
-                        .append('text').text(function(d) {
+                        // Introduction d'un titre
+                        .append('title').text(function(d) {
                             return d.data.name;
                         });
-            };
+
+                    //-- Création des labels
+                        g.selectAll("text")
+                        // Toujours s'appuyer sur le jeu de donnée générer pour Pie
+                        .data(arcs)
+                        // Création d'un element text
+                        .enter()
+                        .append("text")
+                        // Centrer le texte
+                        .attr("transform", function(d) {
+                            var center = self.arc().centroid(d);
+
+                            return "translate(" + center + ")";
+                        })
+                        //
+                        //.attr("dy", "0.35em");
+                        .append("tspan")
+                        //.attr("x", "-0.5rem")
+                        .attr("y", "-0.2rem")
+                        .style("font-weight", "bold")
+                        .style("font-size", "0.75rem")
+                        .style("font-weight", "bold")
+                        .text(function(d){
+                            return d.data.name;
+                        });
+
+                        g.selectAll("text").filter(function(d) {
+                            console.log(d, d.endAngle - d.startAngle);
+                            return ((d.endAngle - d.startAngle) > 0.25);
+                        })
+                        .append("tspan")
+                        .attr("x", 0)
+                        .attr("y", "0.6rem")
+                        .text(function(d) {
+                            return d.data.val.toLocaleString();
+                        });
+        };
 
             /**
              * Défini l'élement cible (ou son selecteur) devant être remplacer par le nouveau graphique.
@@ -297,10 +336,10 @@
         }
 
             var data = [
-                {name: "a", val: 1},
-                {name: "b", val: 2},
-                {name: "c", val: 3},
-                {name: "d", val: 4}
+                {name: "Pomme", val: 1},
+                {name: "Poire", val: 2},
+                {name: "Pêche", val: 3},
+                {name: "Banane", val: 4}
             ];
 
         var PIE = new Pie();
