@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D3.js Graphs</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <style>
+    </style>
+    <script>
+        //@TODO : voir pour un system de selection d'un existant - gestion de nom - bind - jeu de donnée
+
+        function Pie(){
+            var self = this;
+
+            self._arcInX = 0.67;
+            self._arcOutX = 1;
+            self._arcPad = 0.005;
+            self._getting = false;
+            self._width = 100;
+            self._height = 100;
+            self._replace = false;
+            self._host = null;
+            self._default = {
+                mapFn: function(d) {
+                    return d.val;
+                }
+            };
+
+            self.arc = function(radius) {
+                console.log(radius, self._arcInX, self._arcOutX)
+                return d3.arc().innerRadius(radius * self._arcInX).outerRadius(radius * self._arcOutX);
+            };
+
+            self.arcIn = function(arcIn) {
+                //@TODO controle de l'argument
+                self._arcInX = arcIn;
+                return self;
+            };
+
+            self.arcOut = function(arcOut) {
+                //@TODO controle de l'argument
+                self._arcOutX = arcOut;
+                return self;
+            };
+
+            self.arcShape = function(arcIn, arcOut, padding) {
+                self.arcIn(arcIn);
+                self.arcOut(arcOut);
+                self.padding(padding);
+
+                return self;
+            };
+
+            /**
+             * Construit à l'endroit attendu le graphique. N'inclus pas la génération de celui-ci.
+             */
+            self.build = function() {
+                var SVG = d3.create('svg').attr('width', self._width).attr('height', self._height).node();
+
+                if (self._host) {
+                    if (self._replace) {
+                        self._host.parentNode.replaceChild(SVG, self._host);
+                    } else {
+                        self._host.appendChild(SVG);
+                    }
+                }
+            };
+
+
+            self.fill = function() {
+
+            };
+
+            /**
+             * Génère une couleur à partir d'une chaine.
+             *
+             * @param   c
+             * @returns {Pie}
+             */
+            self.color = function(c) {
+                return c.data.color;
+            };
+
+            /**
+             * Génère le graphique à l'aide du jeu de donnée.
+             *
+             * @param   {object}   data   Jeu de donnée à traiter.
+             * @param   {function} mapFn  Function de mapping de la valeur.
+             * @returns {Pie}
+             */
+            self.make = function(data, mapFn) {
+                // Sécurisation des arguments
+                mapFn = self._default.mapFn; //@TODO: Test de def et de type + use default
+                console.log('mapFn', mapFn);
+
+                // Création de l'enveloppe du graphique
+                self.build();
+
+                // Calculer le rayon du Pie Chart
+                var radius = Math.min(self._width, self._height) / 2;
+                var arc = d3.arc().innerRadius(radius * 0.67).outerRadius(radius - 1);
+
+                // Création du moteur de dispatch des données en Pie
+                var pie = d3.pie()
+                    .padAngle(self._arcPad) // Angle de séparation des différentes valeur
+//                    .sort(null)                   // Default : X > x
+                    .value(mapFn);                // Function pour trouver la valeur utile
+
+                // Répartition des données en part représentative en fonction de leur valeur utile
+                var arcs = pie(data);
+
+                // Production du graph
+                    //-- Selectionner le SVG cible
+                    var svg = d3.select("svg");
+
+                    //-- Création d'une zone de travail
+                    var g = svg.append('g');
+                        // Déplacement du groupe au centre
+                        g.attr("transform", function() {
+                            var hzCenter = self._width / 2;
+                            var vCenter = self._height / 2;
+
+                            return "translate(" + hzCenter + "," + vCenter + ")";
+                        });
+                        // Prévoir de selectionner tous les éléments que nous allons construire
+                        g.selectAll("path")
+                        // Envoie des valeures dispatchées
+                        .data(arcs)
+                        // Entrer dans le jeu de donnée et processer
+                        .enter()
+                        // Créer un element SVG path pour chaque valeur
+                        .append("path")
+                        // Définir la couleur de remplissage
+                        .attr('fill', self.color)
+                        // Définir la valeur de D pour la shape PATH (cf SVG)
+                        .attr('d', self.arc(radius))
+                        .append('text').text(function(d) {
+                            return d.data.name;
+                        });
+            };
+
+            /**
+             * Défini l'élement cible (ou son selecteur) devant être remplacer par le nouveau graphique.
+             *
+             * @param   {String|HTMLElement} replace Element Cible pour une opération replaceChild().
+             * @returns {Pie}
+             */
+            self.replace = function(replace) {
+                if ((typeof replace) !== 'object') {
+                    replace = document.querySelector(replace);
+                }
+
+                if (replace) {
+                    self._host = replace;
+                    self._replace = true;
+                }
+
+                return self;
+            };
+
+            /**
+             * Défini l'élement cible (ou son selecteur) devant acceuillir le graphique.
+             *
+             * @param   {String|HTMLElement} target Element Cible pour une opération appendChild().
+             * @returns {Pie}
+             */
+            self.target = function(target) {
+                if ((typeof target) !== 'object') {
+                    target = document.querySelector(target);
+                }
+
+                if (target) {
+                    self._host = target;
+                    self._replace = false;
+                }
+
+                return self;
+            };
+
+            /**
+             * Défini la largeur en pixel du graphique.
+             *
+             * @param   {number} width  Largeur en pixel du graphique.
+             * @returns {Pie}
+             */
+            self.width = function(width) {
+                self._width = parseInt(width);
+                if (isNaN(self._width)) {
+                    self._width = 100;
+                }
+
+                return self;
+            };
+
+            /**
+             * Défini la hauteur en pixel du graphique.
+             *
+             * @param   {number} height  hauteur en pixel du graphique.
+             * @returns {Pie}
+             */
+            self.height = function(height) {
+                self._height = parseInt(height);
+                if (isNaN(self._height)) {
+                    self._height = 100;
+                }
+                return self;
+            };
+
+            self.padding = function(padding) {
+                //@TODO: controle de l'argument
+                self._arcPad = padding;
+
+                return self;
+            };
+
+            /**
+             * Défini les dimension largeur, hauteur du graphique en pixel.
+             *
+             * @param   {number} width  Largeur en pixel du graphique.
+             * @param   {number} height  hauteur en pixel du graphique.
+             * @returns {Pie}
+             */
+            self.size = function(width, height) {
+                self.width(width);
+                self.height(height);
+                return self;
+            };
+
+            return self;
+        }
+
+        function applySettings() {
+            var svg = document.querySelector('svg');
+            if (svg) {
+                svg.parentNode.removeChild(svg);
+            }
+
+            var width = document.querySelector("#width").value;
+            var height = document.querySelector("#height").value;
+            var arcIn = document.querySelector("#arcIn").value;
+            var arcOut = document.querySelector("#arcOut").value;
+            var arcPad = document.querySelector("#arcPad").value;
+
+            PIE.size(width, height).arcShape(arcIn, arcOut, arcPad).target(document.body).make(data);
+        }
+
+            var data = [
+                {name: "a", val: 1, color: "red"},
+                {name: "b", val: 2, color: "green"},
+                {name: "c", val: 3, color: "blue"}
+            ];
+
+        var PIE = new Pie();
+    </script>
+</head>
+<body>
+
+<ul>
+    <li><label for="width">Largeur (Px) :</label><input id="width" type="number" value="500"/></li>
+    <li><label for="height">Hauteur (Px) :</label><input id="height" type="number" value="500"/></li>
+    <li><label for="arcIn">Début de l'arc [0,1] :</label><input id="arcIn" type="number" value="0.05"/></li>
+    <li><label for="arcOut">Fin de l'arc [0,1] :</label><input id="arcOut" type="number" value="0.95"/></li>
+    <li><label for="arcPad">Espace entre valeur :</label><input id="arcPad" type="number" value="0.005"/></li>
+</ul>
+
+<input type="button" onclick="applySettings();" value="Appliquer"/>
+
+</body>
+</html>
