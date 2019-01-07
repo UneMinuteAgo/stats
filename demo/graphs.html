@@ -18,34 +18,60 @@
             self._arcInX = 0.67;
             self._arcOutX = 1;
             self._arcPad = 0.005;
-            self._getting = false;
             self._width = 100;
             self._height = 100;
             self._replace = false;
             self._host = null;
             self._default = {
                 mapFn: function(d) {
-                    return d.val;
+                    return d.value;
                 }
             };
 
-            self.arc = function(radius) {
-                console.log(radius, self._arcInX, self._arcOutX)
+            /**
+             * Callback pour le remplissage du pie chart.
+             */
+            self.arc = function() {
+                var radius = Math.min(self._width, self._height) / 2;
                 return d3.arc().innerRadius(radius * self._arcInX).outerRadius(radius * self._arcOutX);
             };
 
+            /**
+             * Défini le point de départ de l'arc représentant une valeur.
+             *
+             * @param   {number} arcIn  Valeur comprise entre 0 et 1.
+             * @returns {Pie}
+             */
             self.arcIn = function(arcIn) {
-                //@TODO controle de l'argument
+                arcIn = parseFloat(arcIn);
+
+                if (isNaN(arcIn)) {
+                    arcIn = 0;
+                }
+
                 self._arcInX = arcIn;
                 return self;
             };
 
+            /**
+             * Défini le point de d'arrêt de l'arc représentant une valeur.
+             *
+             * @param   {number} arcOut  Valeur comprise entre 0 et 1.
+             * @returns {Pie}
+             */
             self.arcOut = function(arcOut) {
-                //@TODO controle de l'argument
+                arcOut = parseFloat(arcOut);
+
+                if (isNaN(arcOut)) {
+                    arcOut = 1;
+                }
                 self._arcOutX = arcOut;
                 return self;
             };
 
+            /**
+             * Défini le paramétrage permettant la construction des arcs représentant une valeur.
+             */
             self.arcShape = function(arcIn, arcOut, padding) {
                 self.arcIn(arcIn);
                 self.arcOut(arcOut);
@@ -69,19 +95,38 @@
                 }
             };
 
-
-            self.fill = function() {
-
-            };
-
             /**
              * Génère une couleur à partir d'une chaine.
              *
-             * @param   c
+             * @param   data
              * @returns {Pie}
              */
-            self.color = function(c) {
-                return c.data.color;
+            self.color = function(data) {
+
+                return d3.scaleOrdinal().domain(
+                    data.map(function(el) {
+                        return el.name
+                    })
+                ).range(
+                    d3.quantize(function(t){
+                        console.log(t);
+                        return d3.interpolateSpectral(t * 0.8 + 0.1);
+                    }, data.length)
+                );
+
+                // d3.interpolateSpectral(x)
+                //  x = [0,1]
+                //  return rgb(x,y,z)
+
+                // d3.quantize() je pense qu'il traduit la couleur RGB sur une échelle de 0 à 1
+
+                // d3.scaleOrdinal().range() applique les valeyur quantizé aux valeur enregistrée dans domaine
+
+                // En gros,
+                //  - On créer une echelle ordonal de couleur
+                //  - On spécifie le jeu de donnée à qui il faut attaché la couleur
+                //  - On attache la couleur à l'aide de range
+                //  - La couleur est génerer et quantifié par jeu de donnée disponible
             };
 
             /**
@@ -93,24 +138,24 @@
              */
             self.make = function(data, mapFn) {
                 // Sécurisation des arguments
-                mapFn = self._default.mapFn; //@TODO: Test de def et de type + use default
-                console.log('mapFn', mapFn);
+                if (!(typeof mapFn) === 'function') {
+                    mapFn = self._default.mapFn;
+                }
 
                 // Création de l'enveloppe du graphique
                 self.build();
 
-                // Calculer le rayon du Pie Chart
-                var radius = Math.min(self._width, self._height) / 2;
-                var arc = d3.arc().innerRadius(radius * 0.67).outerRadius(radius - 1);
-
                 // Création du moteur de dispatch des données en Pie
                 var pie = d3.pie()
                     .padAngle(self._arcPad) // Angle de séparation des différentes valeur
-//                    .sort(null)                   // Default : X > x
+                    //.sort(null)                   // Default : X > x
                     .value(mapFn);                // Function pour trouver la valeur utile
 
                 // Répartition des données en part représentative en fonction de leur valeur utile
                 var arcs = pie(data);
+
+                // Generation des couleurs
+                var color = self.color(data);
 
                 // Production du graph
                     //-- Selectionner le SVG cible
@@ -134,9 +179,11 @@
                         // Créer un element SVG path pour chaque valeur
                         .append("path")
                         // Définir la couleur de remplissage
-                        .attr('fill', self.color)
+                        .attr('fill', function(d){
+                            return color(d.data.name)
+                        })
                         // Définir la valeur de D pour la shape PATH (cf SVG)
-                        .attr('d', self.arc(radius))
+                        .attr('d', self.arc())
                         .append('text').text(function(d) {
                             return d.data.name;
                         });
@@ -244,13 +291,16 @@
             var arcOut = document.querySelector("#arcOut").value;
             var arcPad = document.querySelector("#arcPad").value;
 
-            PIE.size(width, height).arcShape(arcIn, arcOut, arcPad).target(document.body).make(data);
+            PIE.size(width, height).arcShape(arcIn, arcOut, arcPad).target(document.body).make(data, function(c) {
+                return c.val;
+            });
         }
 
             var data = [
-                {name: "a", val: 1, color: "red"},
-                {name: "b", val: 2, color: "green"},
-                {name: "c", val: 3, color: "blue"}
+                {name: "a", val: 1},
+                {name: "b", val: 2},
+                {name: "c", val: 3},
+                {name: "d", val: 4}
             ];
 
         var PIE = new Pie();
@@ -259,11 +309,11 @@
 <body>
 
 <ul>
-    <li><label for="width">Largeur (Px) :</label><input id="width" type="number" value="500"/></li>
-    <li><label for="height">Hauteur (Px) :</label><input id="height" type="number" value="500"/></li>
-    <li><label for="arcIn">Début de l'arc [0,1] :</label><input id="arcIn" type="number" value="0.67"/></li>
+    <li><label for="width">Largeur (Px) :</label><input id="width" type="number" value="200"/></li>
+    <li><label for="height">Hauteur (Px) :</label><input id="height" type="number" value="200"/></li>
+    <li><label for="arcIn">Début de l'arc [0,1] :</label><input id="arcIn" type="number" value="0.60"/></li>
     <li><label for="arcOut">Fin de l'arc [0,1] :</label><input id="arcOut" type="number" value="0.95"/></li>
-    <li><label for="arcPad">Espace entre valeur :</label><input id="arcPad" type="number" value="0.01"/></li>
+    <li><label for="arcPad">Espace entre valeur :</label><input id="arcPad" type="number" value="0.02"/></li>
 </ul>
 
 <input type="button" onclick="applySettings();" value="Appliquer"/>
