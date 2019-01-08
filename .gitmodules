@@ -1,0 +1,3 @@
+[submodule "lib/vendor/xhrQuery"]
+	path = lib/vendor/xhrQuery
+	url = git@github.com:neooblaster/xhrQuery.git
