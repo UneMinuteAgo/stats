@@ -5,10 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>D3.js Graphs</title>
+    <title>D3.js Graphs Dynamic</title>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="../site/lib/vendor/xhrQuery/src/xhrQuery.js"></script>
-    <script src="../site/lib/js/Pie.js"></script>
+    <script src="lib/vendor/neooblaster/xhrQuery/src/xhrQuery.js"></script>
+    <script src="lib/js/Pie.js"></script>
 </head>
 <body>
 

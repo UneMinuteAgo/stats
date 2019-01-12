@@ -93,4 +93,4 @@ EXPOSE 3307
 ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
 
 # Dossier de travail lorsqu'on se connecterau container.
-WORKDIR /var/www/hackan
+WORKDIR /var/www/hackhan

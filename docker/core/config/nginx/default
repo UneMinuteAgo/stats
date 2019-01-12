@@ -12,7 +12,7 @@ server {
 	#
 	# include snippets/snakeoil.conf;
 
-	root /var/www/hackhan/demo;
+	root /var/www/hackhan/site;
 
 	access_log /var/log/nginx/hackhan.access.log;
 	error_log /var/log/nginx/hackhan.error.log warn;

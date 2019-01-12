@@ -1,6 +1,6 @@
 .idea/*
-lib/vendor/*
-!lib/vendor/.required
+site/lib/vendor/*
+!site/lib/vendor/.required
 nohup.out
 docker/log/*
 !docker/log/.required

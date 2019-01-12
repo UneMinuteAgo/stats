@@ -42,16 +42,16 @@ service nginx start >> /docker.log 2>&1
 
 
 # Téléchargement de composer
-#cd /
-#wget https://getcomposer.org/composer.phar
-#chmod +x composer.phar
-#mv composer.phar /usr/local/bin/composer
+cd /
+wget https://getcomposer.org/composer.phar
+chmod +x composer.phar
+mv composer.phar /usr/local/bin/composer
 
 #ln -s /var/www/hackhan/src/jarvis.php /usr/local/bin/jarvis
 
 # Récupération des dépendances
 #cd /var/www/jarvis
-#composer create-project >> /docker.log 2>&1 || composer update >> /docker.log 2>&1
+composer create-project >> /docker.log 2>&1 || composer update >> /docker.log 2>&1
 
 
 # Garder le container en running state.
