@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/css' href='ead.css'?><!DOCTYPE ead SYSTEM "ead_sia.dtd">
+<ead>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid>FRAN_IR_042517</eadid>
+ <filedesc>
+  <titlestmt>
+   <titleproper>Minutes et répertoires du notaire Jean Joseph DESCHAMBEAUX, 29 juin 1775 - 17 août 1775 (étude LXVII)</titleproper>
+    <subtitle>Répertoire numérique détaillé</subtitle>
+    <author>Marc Durand, secrétaire de documentation, et Virginie Grégoire, secrétaire de documentation, sous la direction de Marie-Françoise Limon-Bonnet, responsable du Minutier central des notaires de Paris</author>
+   </titlestmt>
+   <editionstmt>
+    <edition>Troisième édition électronique</edition>
+   </editionstmt>
+   <publicationstmt>
+   <publisher>Archives nationales</publisher>
+    <address>
+     <addressline>Paris</addressline>
+    </address>
+    <date calendar="gregorian" era="ce" normal="2013-06-18/2013-06-18">2018</date>
+   </publicationstmt>
+  </filedesc>
+  <profiledesc>
+  <creation>Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</creation>
+   <langusage>
+    <language langcode="fre">Français</language>
+   </langusage>
+   <descrules>Conforme à la norme ISAD(G) et aux règles d'application de la DTD EAD (version 2002) aux Archives nationales.</descrules>
+  </profiledesc>
+  <revisiondesc>
+  <change>
+    <date calendar="gregorian" era="ce" normal="2016-04-01/2016-04-30">avril 2016</date>
+    <item>Dépouillement exhaustif des minutes laissées par le notaire, Marc Durand, sous la direction de Marie-Françoise Limon-Bonnet</item>
+   </change>
+   <change>
+    <date calendar="gregorian" era="ce" normal="2018-10-01 / 2018-10-31">octobre 2018</date>
+    <item>Indexation de la totalité de l'instrument de recherche, Virginie Grégoire</item>
+   </change>
+  </revisiondesc>
+ </eadheader>
+ <frontmatter>
+  <div>
+   <p>Jean Joseph Deschambeaux a exercé très brièvement, moins de trois mois. Le résultat de son activité, parvenu jusqu'à nous, représente 55 minutes. Toutes ont été analysées et indexées pièce à pièce. Il est notaire rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, quartier Saint-Martin, comme son prédécesseur, François Gabriel Demarandel, qui s'y installa après avoir été cloître Saint-Merri, en 1766, puis son successeur, Achille Michel Pinon, qui s'installa cependant dès 1774 rue Sainte-Avoie vis-à-vis de la rue du Plâtre. Beaucoup de ses clients semblent être établis dans rue Michel-le-Comte ou à proximité, même si certains semblent installés sur la rive gauche, paroisse Saint-Sulpice ou Saint-Etienne-du-Mont. D'autres clients habitent ou possèdent des biens dans le Nord de Paris, notamment à Villetaneuse ou Enghien et jusqu'en en Picardie.</p>
+   <p>Marie-Françoise Limon-Bonnet</p>
+   <p>Octobre 2018</p>
+  </div>
+ </frontmatter>
+ <archdesc level="subfonds">
+  <did>
+   <unitid type="identifiant">MC/ET/LXVII/717, MC/RE/LXVII/9</unitid>
+   <unittitle>Minutes et répertoires du notaire Jean Joseph DESCHAMBEAUX (étude LXVII)</unittitle>
+   <unitdate calendar="gregorian" era="ce" normal="1775-06-29/1775-08-17">29 juin 1775 - 17 août 1775</unitdate>
+   <origination>
+    <corpname authfilenumber="FRAN_NP_010194">Etude LXVII</corpname>
+    <persname authfilenumber="FRAN_NP_012317">DESCHAMBEAUX, Jean Joseph</persname>
+   </origination>
+   <langmaterial>
+    <language langcode="fre">Français</language>
+   </langmaterial>
+   <repository>Archives nationales de France</repository>
+   <physloc>Paris</physloc>
+  </did>
+  <accessrestrict>
+   <p>
+    <emph render="bold">Minutes et répertoires : </emph>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e). 
+   </p>
+   <p>
+    <emph render="bold">Autres documents de l'étude (dossiers de clients, comptabilité...) : </emph>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur. 
+   </p>
+   <p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</p>
+  </accessrestrict>
+  <userestrict>
+   <p>Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</p>
+  </userestrict>
+  <acqinfo>
+   <p>Versement</p>
+  </acqinfo>
+  <scopecontent>
+   <p altrender="links">
+    <ref role="IR">Accès aux instruments de recherche de tous les notaires de l’étude LXVII 
+     <archref href="FRAN_IR_042509">Archives de l'étude LXVII</archref>
+    </ref>
+   </p>
+  </scopecontent>
+  <dsc>
+  <c id="c1p71erv9q57--1oy8fa9ydfks9" level="series">
+   <did>
+    <unitid type="identifiant">MC/ET/LXVII/717</unitid>
+     <unittitle>Minutes de Jean Joseph DESCHAMBEAUX</unittitle>
+     <unitdate calendar="gregorian" era="ce" normal="1775-06-29/1775-08-17">29 juin 1775 - 17 août 1775</unitdate>
+    </did>
+   </c>
+   <c id="c-3mx4tpikzl-n60yp2di96zo" level="recordgrp">
+   <did>
+    <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+     <unittitle>Minutes. 1775, 29 juin - 17 août</unittitle>
+     <unitdate calendar="gregorian" era="ce" normal="1775-06-29/1775-08-17">29 juin 1775 - 17 août 1775</unitdate>
+    </did>
+    <scopecontent>
+     <p>
+      <emph render="bold">Informations concernant le classement :</emph>
+     </p>
+     <p>Le niveau inférieur de description correspond aux minutes d'actes. Toutes les minutes de ce notaire ont été décrites une à une.</p>
+    </scopecontent>
+    <c id="c1p71ervajgr--1q9u2dj6usd9q" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Transaction entre Jacques Fromentin, pensionnaire du roi, demeurant rue de la Sainte-Famille, paroisse Saint-Louis, à Versailles, veuf de Jeanne Rochecinille, elle-même veuve de Thomas Mauroy, bourgeois de Versailles, et Charles Thomas Mauroy, prêtre, chapelain de la reine, et de Madame Victoire, chanoine de Péronne, demeurant rue de l’Orangerie, paroisse Saint-Louis à Versailles, concernant divers objets et sommes d’argent.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-06-29">29 juin 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <occupation authfilenumber="d699msjd4dv--14ekvu9jh4wb9" source="FRAN_RI_010">prêtre</occupation>
+      <geogname authfilenumber="d3ntu51cee--wrvelxp49su1" source="FRAN_RI_005">Versailles (Yvelines)</geogname>
+      <persname source="indexation_libre">Fromentin, Jacques</persname>
+      <persname source="indexation_libre">Rochecinille, Jeanne</persname>
+      <persname source="indexation_libre">Mauroy, Thomas</persname>
+      <persname source="indexation_libre">Mauroy, Charles Thomas</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5hs3rptja--1g1fcrxgr6fvu" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt d’une mainlevée par Jean Louis Mottedescombes, bourgeois de Paris, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, donnée par Marie Gabrielle de Berly, demeurant au couvent des Dames-Hospitalières, paroisse Sainte-Croix, à Mantes, au profit du sieur Genest, pour arrérages.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-06-29">29 juin 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dhxh7--1l0rrc8cmohcj" source="FRAN_RI_001">mainlevée</genreform>
+      <persname source="indexation_libre">Mottedescombes, Jean Louis</persname>
+      <persname source="indexation_libre">Berly, Marie Gabrielle de</persname>
+      <persname source="indexation_libre">Genest (M.)</persname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3nttk4hgg--1fgbwui8m189b" source="FRAN_RI_005">Mantes-la-Jolie (Yvelines)</geogname>
+     </controlaccess>
+    </c>
+    <c id="c-5i25qibsr--1mcdim0joswcd" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt de procuration de Jean-Baptiste François Joseph Dupont, avocat en parlement, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, donnée par Jean-Baptiste Étienne Joly, ancien receveur général des fermes de Bretagne, demeurant paroisse Sainte-Croix, à Mantes, à François Bellard, bourgeois de Paris, pour gérer et administrer ses biens.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-06-29">29 juin 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d3m0bl70rvh-1axp8xp82x6vh" source="FRAN_RI_010">trésorier payeur (Ancien Régime)</occupation>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <persname source="indexation_libre">Dupont, Jean-Baptiste François Joseph</persname>
+      <persname source="indexation_libre">Joly, Jean-Baptiste Étienne</persname>
+      <persname source="indexation_libre">Bellard, François</persname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nttk4hgg--1fgbwui8m189b" source="FRAN_RI_005">Mantes-la-Jolie (Yvelines)</geogname>
+     </controlaccess>
+    </c>
+    <c id="c-5im7ahx85-11yzwk4xq673m" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Désistement de bail par Pierre Duchesne, marchand plâtrier, demeurant à Mantes, à François Joseph Bezançon, bourgeois de Paris, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, d’une maison sise à Mantes.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-06-30">30 juin 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8aa0od--1ethxybiwgeht" source="FRAN_RI_001">bail</genreform>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msjm4ua--4cbj2a0fsywa" source="FRAN_RI_010">maçon</occupation>
+      <geogname authfilenumber="d3nttk4hgg--1fgbwui8m189b" source="FRAN_RI_005">Mantes-la-Jolie (Yvelines)</geogname>
+      <persname source="indexation_libre">Duchesne, Pierre</persname>
+      <persname source="indexation_libre">Bezançon, Joseph</persname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+     </controlaccess>
+    </c>
+    <c id="c-5j16550hb--1u8pkp3tr6674" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Mainlevée par Joseph Marie Verne, bourgeois de Paris, demeurant rue du Faubourg-Saint-Jacques, paroisse Saint-Jacques-du-Haut-Pas, au profit d’Elisabeth Perrachon, pour une somme de 5859 livres 7 sols 3 deniers.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-06-30">30 juin 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dhxh7--1l0rrc8cmohcj" source="FRAN_RI_001">mainlevée</genreform>
+      <geogname authfilenumber="d3nzaed9pw--1hyqrxv1fx294" source="FRAN_RI_025">Faubourg-Saint-Jacques (rue du)</geogname>
+      <geogname authfilenumber="d3nyvozzmn--vguvgtyha6by" source="FRAN_RI_024">Saint-Jacques-du-Haut-Pas (paroisse)</geogname>
+      <persname source="indexation_libre">Verne, Joseph Marie</persname>
+      <persname source="indexation_libre">Perrachon, Élisabeth</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5japbpsts--rull0g8hb2sl" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Quittance par les héritiers de Geneviève Thérèse Maheu, veuve de Blaise Jean-Baptiste Ledreux, ancien officier juré contrôleur courtier vendeur de volailles, ayant demeuré rue et paroisse Saint-Germain-l’Auxerrois, à François Gabriel Demarandel, avocat en parlement, notaire honoraire, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-06-30">30 juin 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dc8p2-nyxarkw0ppoi" source="FRAN_RI_001">quittance</genreform>
+      <occupation authfilenumber="d699msispi8--1b39ih8o6ntb2" source="FRAN_RI_010">courtier</occupation>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d3nyu9x713-9kcjiv44l4wh" source="FRAN_RI_010">notaire</occupation>
+      <geogname authfilenumber="d3nzd2y5sj-7sr9qedw4k60" source="FRAN_RI_025">Saint-Germain-l'Auxerrois (rue)</geogname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvox0hv--s68ql74wtyjp" source="FRAN_RI_024">Saint-Germain-l'Auxerrois (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Maheu, Geneviève Thérèse</persname>
+      <persname source="indexation_libre">Ledreux, Jean-Baptiste</persname>
+      <persname source="indexation_libre">Demarandel, François Gabriel</persname>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+     </controlaccess>
+    </c>
+    <c id="c-5jqjnu8d1-5shzr9s2680w" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Contrat de mariage sous le régime de la coutume de Paris entre Philippe Badier, garçon boucher, demeurant rue du Vertbois, paroisse Saint-Nicolas-des-Champs, et Jeanne Salmon, charcutière, veuve en premières noces de Pierre Le Preux, demeurant à la Haute-Courtille, paroisse de Belleville, en présence de Jean-Baptiste Michel Salmon, marchand joailler, demeurant rue des Philippeaux, paroisse Saint-Nicolas-des-Champs.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-06-30">30 juin 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bh85k-zoce6yspjkhr" source="FRAN_RI_001">contrat de mariage</genreform>
+      <occupation authfilenumber="d699msjb5h0-16o6e11aeppuv" source="FRAN_RI_010">boucher</occupation>
+      <occupation authfilenumber="d699msjcbv0-29thpwstmx5y" source="FRAN_RI_010">charcutier</occupation>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <geogname authfilenumber="d3nzdor39t-8dumhtg7mgy2" source="FRAN_RI_025">Vertbois (rue du)</geogname>
+      <geogname authfilenumber="d3nzchqq67--1hqtimhkw3w7" source="FRAN_RI_025">Philipot (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3nyv235g1-1dsz2ioo63knt" source="FRAN_RI_020">Belleville (ancienne commune)</geogname>
+      <persname source="indexation_libre">Badier, Philippe</persname>
+      <persname source="indexation_libre">Salmon, Jeanne</persname>
+      <persname source="indexation_libre">Preux, Pierre le</persname>
+      <persname source="indexation_libre">Salmon, Jean-Baptiste</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5k1mt2lry-1lcrn5wm7cqr5" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Constitution de rente viagère annuelle et perpétuelle par Claude Guy Nouet, chevalier conseiller du roi, demeurant en l’Ile-Saint-Louis, rue Poulletier, paroisse Saint-Louis, au profit de Jean Clément, bourgeois de Paris, demeurant rue Saint-Thomas-du-Louvre, paroisse Saint-Germain-l’Auxerrois, pour une somme de 50 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-01">1er juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bd2c9-e47vue9hkip7" source="FRAN_RI_001">constitution de rente</genreform>
+      <occupation authfilenumber="d699msjh9ca-1o4fomkg2k4bp" source="FRAN_RI_010">conseiller du roi</occupation>
+      <geogname authfilenumber="d3nzcp0zw6--11oe87uhglkmf" source="FRAN_RI_025">Poulletier (rue)</geogname>
+      <geogname authfilenumber="d3nzd747a6--qf0bduml6m8i" source="FRAN_RI_025">Saint-Thomas-du-Louvre (rue)</geogname>
+      <geogname authfilenumber="d3nyvp3yz5-cwhff15ig5at" source="FRAN_RI_024">Saint-Louis-en-l'Ile (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvox0hv--s68ql74wtyjp" source="FRAN_RI_024">Saint-Germain-l'Auxerrois (paroisse)</geogname>
+      <persname source="indexation_libre">Nouet, Claude Guy</persname>
+      <persname source="indexation_libre">Clément, Jean</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5kj6nx3bq-16q54vja62aio" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Notoriété après décès de Dom Jean Arnauld Delautel, religieux bénédictin de l’Etroite Observance de l’ordre de Cluny, curé de Saint-Leu-d’Esserent, décédé le 2 décembre 1774, sur les déclarations de Jean Michel Dallançon, demeurant rue et paroisse rue Saint-Jacques-de-la-Boucherie, et Jean Claude Durosoy, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, tous deux bourgeois de Paris.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-01">1er juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dxom5--1n6okrudb7a4s" source="FRAN_RI_001">notoriété</genreform>
+      <geogname authfilenumber="d3nzbeugxo-rkastdpmx841" source="FRAN_RI_025">Hôtel-de-Ville (boulevard de l')</geogname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvozckb-wk5djyktth83" source="FRAN_RI_024">Saint-Jacques-de-la-Boucherie (paroisse)</geogname>
+      <occupation authfilenumber="d699msjs6q9-di60ge9dhxaa" source="FRAN_RI_010">curé</occupation>
+      <geogname authfilenumber="d3ntoyr9qe--mrjofd73nwof" source="FRAN_RI_005">Saint-Leu-d'Esserent (Oise)</geogname>
+      <persname source="indexation_libre">Delautel, Jean Arnauld</persname>
+      <persname source="indexation_libre">Dallançon, Jean Michel</persname>
+      <persname source="indexation_libre">Durosoy, Jean-Claude</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5l3s2awes--c0lhdnf0n2b2" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Procuration par Tobie Pourchet, musicien, demeurant au faubourg Saint-Germain, rue du Sépulcre, paroisse Saint-Sulpice, au sieur Demay, pour gérer et administrer ses finances.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-01">1er juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <occupation authfilenumber="d699msjsrq5--1mbyt7s1ucsrc" source="FRAN_RI_010">musicien</occupation>
+      <geogname authfilenumber="d3nzd6t4po--wbt8g325fph0" source="FRAN_RI_025">Saint-Sépulcre (rue du)</geogname>
+      <geogname authfilenumber="d3nyvpcbgs-1cppi2iacclig" source="FRAN_RI_024">Saint-Sulpice (paroisse)</geogname>
+      <persname source="indexation_libre">Pourchet, Tobie</persname>
+      <persname source="indexation_libre">Demay (M.)</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5l8ho4bfy--1fcb3sec76ln2" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Quittance par René Amiot, demeurant à Blois, représenté par Honoré Alexandre René Amiot, procureur au Chatelet de Paris, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, pour somme de 3 000 livres, reçue de Joseph Miault d’Harvelay, conseiller du roi.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-03">3 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dc8p2-nyxarkw0ppoi" source="FRAN_RI_001">quittance</genreform>
+      <occupation authfilenumber="d3m0bl74hdl-6vhnk4hry8uj" source="FRAN_RI_010">procureur de justice (Ancien Régime)</occupation>
+      <occupation authfilenumber="d699msjh9ca-1o4fomkg2k4bp" source="FRAN_RI_010">conseiller du roi</occupation>
+      <geogname authfilenumber="d3ntim7nvz-1ba255d18am14" source="FRAN_RI_005">Blois (Loir-et-Cher)</geogname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Amiot, René</persname>
+      <persname source="indexation_libre">Miault d'Harvelay, Joseph</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5llt92w1p-gv30h62jvua9" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt de procuration par Jean-Baptiste Pierre Formage de Monval, bourgeois de Paris, demeurant rue des Cinq-Diamants, paroisse Saint-Jacques-de-la-Boucherie, donnée à lui par Robert Mignot, conseiller du roi, maître ordinaire de la Cour des comptes, aides et finances de Normandie, demeurant à Rouen, ou à Lisieux.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-03">3 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <occupation authfilenumber="d699msjh9ca-1o4fomkg2k4bp" source="FRAN_RI_010">conseiller du roi</occupation>
+      <geogname authfilenumber="d3nz9iu1ks--spdgqk7yf6m9" source="FRAN_RI_025">Cinq-Diamants (rue des)</geogname>
+      <geogname authfilenumber="d3nyvozckb-wk5djyktth83" source="FRAN_RI_024">Saint-Jacques-de-la-Boucherie (paroisse)</geogname>
+      <geogname authfilenumber="d3ntspntio-paw9mmh7emrq" source="FRAN_RI_005">Rouen (Seine-Maritime)</geogname>
+      <geogname authfilenumber="d3ntebs9ap--1dnuhuch73ypq" source="FRAN_RI_005">Lisieux (Calvados)</geogname>
+      <persname source="indexation_libre">Formage de Monval, Jean-Baptiste Pierre</persname>
+      <persname source="indexation_libre">Mignot, Robert</persname>
+     </controlaccess>
+    </c>
+    <c id="c-6b6e9e3we--yqvsv2nthjof" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt de procuration par Jean Louis Mottedescombes, bourgeois de Paris, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, donnée par Julie Marie Gillette de Pardaillan d’Antin, abbesse générale de l’abbaye de Fontevrault, et autres religieuse demeurant toutes à ladite abbaye, au profit de Thomas Nicolas Menard, avocat, demeurant rue des Fontaines, paroisse Saint-Nicolas-des-Champs, pour arrérages, etc.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-03">3 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <occupation authfilenumber="d699msitg1r--hdkjr3pb151x" source="FRAN_RI_010">abbé</occupation>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nzahb5w0-do36tkqot1b7" source="FRAN_RI_025">Fontaines (rue des)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3m08yxvchv-jhrd3ltkn0it" source="FRAN_RI_005">Fontevraud (Maine-et-Loire , abbaye de)</geogname>
+      <persname source="indexation_libre">Mottedescombes, Jean Louis</persname>
+      <persname source="indexation_libre">Pardaillan d'Antin, Julie Marie Gilette de</persname>
+      <persname source="indexation_libre">Menard, Thomas</persname>
+     </controlaccess>
+    </c>
+    <c id="c-6bcszkupa--4mgtxl3qgbyo" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Vente par Pierre Louis Marion, bourgeois de Paris, demeurant rue Saint-Denis, paroisse Saint-Jacques-de-la-Boucherie, à Louis Delacour, laboureur au Grand Gournay, paroisse de Moussoulens près Enghien (Val-d'Oise), et Angélique Demachy, son épouse, d’une ferme, animaux et terres s’y rattachant, pour une somme principale de 20 000 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-04">4 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd89lgo1-7iazj0zqu03g" source="FRAN_RI_001">acte de vente</genreform>
+      <geogname authfilenumber="d3nzd1u57i-1h2qpz5x5m5i3" source="FRAN_RI_025">Saint-Denis (rue)</geogname>
+      <geogname authfilenumber="d3nyvozckb-wk5djyktth83" source="FRAN_RI_024">Saint-Jacques-de-la-Boucherie (paroisse)</geogname>
+      <occupation authfilenumber="d699msjbjqf--1uzbe260ejrd5" source="FRAN_RI_010">agriculteur</occupation>
+      <geogname authfilenumber="d3ntdxraqe-1lqmz0dexyx82" source="FRAN_RI_005">Moussoulens (Aude)</geogname>
+      <persname source="indexation_libre">Marion, Pierre Louis</persname>
+      <persname source="indexation_libre">Demachy, Angélique</persname>
+     </controlaccess>
+    </c>
+    <c id="c-6ni1zdttb-15yxkndhngsd9" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Mainlevée par Guinot Peroux, marchand fripier, demeurant rue du Four, paroisse Saint-Sulpice, au sieur Talons, huissier, à la suite de la vente à lui consentie lors du décès de Martin Gaulmy, marchand de vin.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-05">5 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dhxh7--1l0rrc8cmohcj" source="FRAN_RI_001">mainlevée</genreform>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msj86wk-9mckogmz1ztg" source="FRAN_RI_010">huissier</occupation>
+      <geogname authfilenumber="d3nzai8akv-16nhfbh8wayo7" source="FRAN_RI_025">Four (rue du)</geogname>
+      <geogname authfilenumber="d3nyvpcbgs-1cppi2iacclig" source="FRAN_RI_024">Saint-Sulpice (paroisse)</geogname>
+      <persname source="indexation_libre">Peroux, Guinot</persname>
+      <persname source="indexation_libre">Talons (M.)</persname>
+      <persname source="indexation_libre">Gaulmy, Martin</persname>
+     </controlaccess>
+    </c>
+    <c id="c-6y72hk6ex-1p15nx2of76vs" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Obligation par Claude François Rougeot, écuyer, fermier général, demeurant rue Saint-Honoré, paroisse Saint-Roch, au profit de Catherine Joubard, veuve de Louis François Crespé, bourgeois de Paris, demeurant rue Poissonnière, paroisse Saint-Eustache, pour une somme de 10000 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-06">6 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8e0yqp-1qnzg5md0cw8q" source="FRAN_RI_001">obligation</genreform>
+      <persname source="indexation_libre">Rougeot, Claude François</persname>
+      <persname source="indexation_libre">Joubard, Catherine</persname>
+      <persname source="indexation_libre">Crespé, Louis François</persname>
+      <geogname authfilenumber="d3nzd36jkq-2di11qojb16k" source="FRAN_RI_025">Saint-Honoré (rue)</geogname>
+      <geogname authfilenumber="d3nzclee3y--zpdicw9modhd" source="FRAN_RI_025">Poissonnière (boulevard)</geogname>
+      <geogname authfilenumber="d3nyvpb1c4--1dpne8gngxarf" source="FRAN_RI_024">Saint-Roch (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvow9c3--1ln2rhczl581f" source="FRAN_RI_024">Saint-Eustache (paroisse)</geogname>
+      <occupation authfilenumber="d3m0bl759we-1qfz4kgpyc2dp" source="FRAN_RI_010">administrateur</occupation>
+     </controlaccess>
+    </c>
+    <c id="c-74515wgo5-vru9puz64ebt" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Constitution de rente viagère annuelle et perpétuelle par Claude Guy Nouet, chevalier conseiller du roi, demeurant en l’île Saint-Louis, rue Poulletier, paroisse Saint-Louis, au profit de Tobie Pourchet, musicien, demeurant au Faubourg-Saint-Germain, rue du Sépulcre, paroisse Saint-Sulpice, pour une somme de 420 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-06">6 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bd2c9-e47vue9hkip7" source="FRAN_RI_001">constitution de rente</genreform>
+      <occupation authfilenumber="d699msjsrq5--1mbyt7s1ucsrc" source="FRAN_RI_010">musicien</occupation>
+      <occupation authfilenumber="d699msjh9ca-1o4fomkg2k4bp" source="FRAN_RI_010">conseiller du roi</occupation>
+      <geogname authfilenumber="d3nzcp0zw6--11oe87uhglkmf" source="FRAN_RI_025">Poulletier (rue)</geogname>
+      <geogname authfilenumber="d3nzd6t4po--wbt8g325fph0" source="FRAN_RI_025">Saint-Sépulcre (rue du)</geogname>
+      <geogname authfilenumber="d3nyvp3yz5-cwhff15ig5at" source="FRAN_RI_024">Saint-Louis-en-l'Ile (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvpcbgs-1cppi2iacclig" source="FRAN_RI_024">Saint-Sulpice (paroisse)</geogname>
+      <persname source="indexation_libre">Nouet, Claude Guy</persname>
+      <persname source="indexation_libre">Pourchet, Tobie</persname>
+     </controlaccess>
+    </c>
+    <c id="c-74e8pacz6-l2owx8oyfpj1" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Transport de droits successifs entre Louise Guillon, demeurant rue Verdelet, paroisse Saint-Eustache, et son neveu, Denis Guillon, manœuvrier, demeurant à Brantes, suite au décès de sa tante, Marguerite Guillon, épouse de Jean Parizot, portier de [Jean-Baptiste] Le Bonvallet, ancien trésorier de France.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-08">8 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3m00w8dl27--jxkj8k5bbsim" source="FRAN_RI_001">transport de droits</genreform>
+      <occupation authfilenumber="d699msjoocr--1mrf7391lxl3b" source="FRAN_RI_010">concierge</occupation>
+      <occupation authfilenumber="d3m0bl7082e--17jqkp7i2zjts" source="FRAN_RI_010">trésorier de France (Ancien Régime)</occupation>
+      <geogname authfilenumber="d3nzdo7ccv-1rsjlt0n0g46o" source="FRAN_RI_025">Verdelet (rue)</geogname>
+      <geogname authfilenumber="d3nyvow9c3--1ln2rhczl581f" source="FRAN_RI_024">Saint-Eustache (paroisse)</geogname>
+      <geogname authfilenumber="d3ntvp2sfk--s1jv0d6fnv5n" source="FRAN_RI_005">Brantes (Vaucluse)</geogname>
+      <persname source="indexation_libre">Guillon, Louise</persname>
+      <persname source="indexation_libre">Guillon, Denis</persname>
+      <persname source="indexation_libre">Guillon, Marguerite</persname>
+      <persname source="indexation_libre">Parizot, Jean</persname>
+      <persname source="indexation_libre">Bonvallet, Jean-Baptiste le</persname>
+     </controlaccess>
+    </c>
+    <c id="c-7emld6ndd--11g2vriik1z1t" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt d’une mainlevée par Thomas Nicolas Minard, avocat, demeurant rue des Fontaine, paroisse Saint-Nicolas-des-Champs, donnée par le Trésorier de France de Toulouse au sieur Blondel de Gagny, contre le sieur Candie de Saint-Simon, héritier de Jean-Bastiste Candie, ancien payeur des gages du bureau de la généralité de Toulouse.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-08">8 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dhxh7--1l0rrc8cmohcj" source="FRAN_RI_001">mainlevée</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d3m0bl70rvh-1axp8xp82x6vh" source="FRAN_RI_010">trésorier payeur (Ancien Régime)</occupation>
+      <occupation authfilenumber="d3m0bl7082e--17jqkp7i2zjts" source="FRAN_RI_010">trésorier de France (Ancien Régime)</occupation>
+      <geogname authfilenumber="d3nzahb5w0-do36tkqot1b7" source="FRAN_RI_025">Fontaines (rue des)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3nthavqjv-pzq3al737nr6" source="FRAN_RI_005">Toulouse (Haute-Garonne)</geogname>
+      <persname source="indexation_libre">Minard, Thomas Nicolas</persname>
+      <persname source="indexation_libre">Candie, Jean-Baptiste</persname>
+      <persname source="indexation_libre">Candie de Saint-Simon (M.)</persname>
+     </controlaccess>
+    </c>
+    <c id="c-7lhm2dfym-ofdjvwsyg4oj" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Liquidation des communauté et succession confondues de Jeanne Serrant, épouse en premières noces, et Marie Claude Lorrain, épouse en secondes noces de Jacques Villette, maître et marchand tailleur d’habits, demeurant rue et paroisse Saint-Sauveur, entre lui et ses filles, Marie Jeanne Villette, épouse de Jean-Baptiste Trainquet, dont Marie-Madeleine Julie Villette, Claude Detuffel, Reine Frédégonde Villette, etc.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-10">10 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8d4wun--5fx3alx73y2a" source="FRAN_RI_001">liquidation</genreform>
+      <geogname authfilenumber="d3nzd6pzrd--sesg234co7t4" source="FRAN_RI_025">Saint-Sauveur (rue)</geogname>
+      <geogname authfilenumber="d3nyvpbcz5--gbtglbh0f8xm" source="FRAN_RI_024">Saint-Sauveur (paroisse)</geogname>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msk03yr--1wmwxxn655jxq" source="FRAN_RI_010">tailleur d'habits</occupation>
+      <persname source="indexation_libre">Serrant, Jeanne</persname>
+      <persname source="indexation_libre">Lorrain, Marie Claude</persname>
+      <persname source="indexation_libre">Villette, jacques</persname>
+      <persname source="indexation_libre">Villette, Marie Jeanne</persname>
+      <persname source="indexation_libre">Villette, Marie-Madeleine Julie</persname>
+     </controlaccess>
+    </c>
+    <c id="c-7xzq3py90--1ol374jkys5wv" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Bail par Antoinette Marguerite L’Hoste de Beaulieu, épouse de Simon Berthelot, chevalier seigneur de Versigny, conseiller honoraire du roi, demeurant rue du Mail, paroisse Saint-Eustache, à Charles Tavernier, marchand limonadier, et Marie Catherine Vasseur, son épouse, demeurant rue de la Mortellerie, paroisse Saint-Paul, d’une maison située même adresse. Loyer annuel de 1200 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-10">10 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8aa0od--1ethxybiwgeht" source="FRAN_RI_001">bail</genreform>
+      <occupation authfilenumber="d699msjh9ca-1o4fomkg2k4bp" source="FRAN_RI_010">conseiller du roi</occupation>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msjfums--1u0fzz7t9yqj6" source="FRAN_RI_010">restaurateur</occupation>
+      <geogname authfilenumber="d3nzbv02vk-do5s9m0mdd8o" source="FRAN_RI_025">Mail (rue du)</geogname>
+      <geogname authfilenumber="d3nzc52t1g--1ail3rko2pnjq" source="FRAN_RI_025">Mortellerie (rue de la)</geogname>
+      <geogname authfilenumber="d3nyvow9c3--1ln2rhczl581f" source="FRAN_RI_024">Saint-Eustache (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvp8zed--rdzkw0dkb1pg" source="FRAN_RI_024">Saint-Paul (paroisse)</geogname>
+      <persname source="indexation_libre">L'Hoste de Beaulieu, Antoinette Marguerite</persname>
+      <persname source="indexation_libre">Berthelot, Simon</persname>
+      <persname source="indexation_libre">Tavernier,  Charles</persname>
+      <persname source="indexation_libre">Vasseur, Marie</persname>
+     </controlaccess>
+    </c>
+    <c id="c-8e9qjbxwh--xn8vlk0nfw5b" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Déclaration par Marie Anne Robert, épouse de Jacques Desfresnes, valet de chambre de monsieur de Courteille, intendant des finances, et actuellement de madame de Courteille, « qu’une action de 1000 livres a été par mégarde livrée au feu ».</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-10">10 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bq6ez-1daxfsx19z37l" source="FRAN_RI_001">déclaration</genreform>
+      <occupation authfilenumber="d699msj43xg--z4sg02667lbi" source="FRAN_RI_010">employé de maison</occupation>
+      <occupation authfilenumber="d3m0bl6v2o1--kqvqrix1q93u" source="FRAN_RI_010">intendant (Ancien Régime)</occupation>
+      <persname source="indexation_libre">Robert, Marie Anne</persname>
+      <persname source="indexation_libre">Desfresnes, Jacques</persname>
+      <persname source="indexation_libre">Courteille (M.)</persname>
+      <persname source="indexation_libre">Courteille (Mme.)</persname>
+     </controlaccess>
+    </c>
+    <c id="c-19djgqwm8--1im8pz19m3rvt" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt de procuration par Laurent Guillaume Roger, bourgeois de Paris, demeurant rue Hautefeuille, paroisse Saint-Séverin, représentant Benoît Guignardat, marchand, demeurant à Saint-Amour en Franche-Comté, habitant de Fribourg (Suisse), à renonciation à succession de son frère, Joseph Guignardat.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-10">10 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <geogname authfilenumber="d3nzbcg3hn--tt4p45a4q45v" source="FRAN_RI_025">Hautefeuille (rue)</geogname>
+      <geogname authfilenumber="d3nyvpbvqa-1q7k75sdt2gwp" source="FRAN_RI_024">Saint-Séverin (paroisse)</geogname>
+      <geogname authfilenumber="d3ntihi92a--fyjjk438wisb" source="FRAN_RI_005">Saint-Amour (Jura)</geogname>
+      <geogname authfilenumber="d3m08zahv4p--13lio250wrloq" source="FRAN_RI_005">Fribourg (Suisse)</geogname>
+      <persname source="indexation_libre">Roger, Laurent Guillaume</persname>
+      <persname source="indexation_libre">Guignardat, Benoît</persname>
+      <persname source="indexation_libre">Guignardat, Joseph</persname>
+     </controlaccess>
+    </c>
+    <c id="c-1hy91ki2j--mbqllvdgzmvq" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Mainlevée par Marie Jeanne Meunier, veuve de Gilles Bazin, marchand faïencier ordinaire du roi, demeurant rue du Colombier, paroisse Saint-Sulpice, et Pierre Louis Lucien Panellier, receveur des bois du roi, et Marie-Madeleine Bazin, son épouse, demeurant même adresse, à la succession de Louis Charles Bertin de Blagny, trésorier général des revenus casuels, et d’Anne Marie de Montigny de Congis, son épouse.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-12">12 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dhxh7--1l0rrc8cmohcj" source="FRAN_RI_001">mainlevée</genreform>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d3m0bl70rvh-1axp8xp82x6vh" source="FRAN_RI_010">trésorier payeur (Ancien Régime)</occupation>
+      <geogname authfilenumber="d3nz9lhymi--m46ypur5mn5b" source="FRAN_RI_025">Colombier (rue du)</geogname>
+      <geogname authfilenumber="d3nyvpcbgs-1cppi2iacclig" source="FRAN_RI_024">Saint-Sulpice (paroisse)</geogname>
+      <persname source="indexation_libre">Meunier, Marie Jeanne</persname>
+      <persname source="indexation_libre">Bazin, Gilles</persname>
+      <persname source="indexation_libre">Panellier, Louis Lucien</persname>
+      <persname source="indexation_libre">Bazin, Marie-Madeleine</persname>
+      <persname source="indexation_libre">Bertin de Blagny, Louis Charles</persname>
+      <persname source="indexation_libre">Montigny, Anne Marie</persname>
+     </controlaccess>
+    </c>
+    <c id="c-1tdl0og96--nhktmt2u4nzr" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Inventaire après décès de Joseph Guignardat, domestique, dressé à la requête d’Antoine Guignardat, cordonnier, demeurant à Saint-Amour en Franche-Comté, Jean Louis Guignardat, laboureur, demeurant à Toulongeon, paroisse de Germagnat en Franche-Comté [Ain], et Antoine Grosset, dit Benonet, laboureur, demeurant à Lasserra, paroisse de Germagnat, tous représentés par Laurent Guillaume Roger, bourgeois de Paris, demeurant rue Hautefeuille, paroisse Saint-Séverin.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-14">14 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8d1j9y--1stj96clt05y3" source="FRAN_RI_001">inventaire après décès</genreform>
+      <occupation authfilenumber="d699msj43xg--z4sg02667lbi" source="FRAN_RI_010">employé de maison</occupation>
+      <occupation authfilenumber="d3nyu9tjyx--10nlfk9x50m03" source="FRAN_RI_010">cordonnier</occupation>
+      <occupation authfilenumber="d699msjbjqf--1uzbe260ejrd5" source="FRAN_RI_010">agriculteur</occupation>
+      <geogname authfilenumber="d3ntihi92a--fyjjk438wisb" source="FRAN_RI_005">Saint-Amour (Jura)</geogname>
+      <geogname authfilenumber="d3ntcp2r9d-c6urj9weci2x" source="FRAN_RI_005">Germagnat (Ain)</geogname>
+      <geogname authfilenumber="d3nzbcg3hn--tt4p45a4q45v" source="FRAN_RI_025">Hautefeuille (rue)</geogname>
+      <geogname authfilenumber="d3nyvpbvqa-1q7k75sdt2gwp" source="FRAN_RI_024">Saint-Séverin (paroisse)</geogname>
+      <persname source="indexation_libre">Guignardat, Joseph</persname>
+      <persname source="indexation_libre">Guignardat, Antoine</persname>
+      <persname source="indexation_libre">Guignardat, Jean Louis</persname>
+      <persname source="indexation_libre">Grosset, Antoine</persname>
+      <persname source="indexation_libre">Roger, Laurent Guillaume</persname>
+     </controlaccess>
+    </c>
+    <c id="c-298dw55rt--geewwguz23hh" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Constitution de rente viagère annuelle et perpétuelle par Claude Charles Henri Guillaume, avocat, demeurant rue Saint-Dominique, paroisse Saint-Sulpice, au profit de François Pontus, maître tailleur d’habits, demeurant rue Dauphine, paroisse Saint-Sulpice, pour une somme de 50 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-15">15 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bd2c9-e47vue9hkip7" source="FRAN_RI_001">constitution de rente</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d699msk03yr--1wmwxxn655jxq" source="FRAN_RI_010">tailleur d'habits</occupation>
+      <geogname authfilenumber="d3nzd2cv9h-11h0ar0hub16v" source="FRAN_RI_025">Saint-Dominique (rue)</geogname>
+      <geogname authfilenumber="d3nz9s8k8f--1iy5px88cmw67" source="FRAN_RI_025">Dauphine (rue)</geogname>
+      <geogname authfilenumber="d3nyvpcbgs-1cppi2iacclig" source="FRAN_RI_024">Saint-Sulpice (paroisse)</geogname>
+      <persname source="indexation_libre">Guillaume, Claude Charles</persname>
+      <persname source="indexation_libre">Pontus, François</persname>
+     </controlaccess>
+    </c>
+    <c id="c-2dnq5tgof--ibc1zrn88f39" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Renonciation par Étienne Rousseau, jardinier à Villetaneuse, paroisse de Saint-Denis, et Hubert Jacquinot, bourgeois de Paris, et Marie-Madeleine Rousseau, son épouse, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, à la succession de Marie Jeanne Asse, leur mère et belle-mère, veuve d’Étienne Rousseau.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-16">16 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8f1w3i-10u4aitg4g2jq" source="FRAN_RI_001">renonciation</genreform>
+      <occupation authfilenumber="d699msjit77-1c6ipdss0iobg" source="FRAN_RI_010">jardinier</occupation>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Rousseau, Étienne</persname>
+      <persname source="indexation_libre">Rousseau, Marie-Madeleine</persname>
+      <persname source="indexation_libre">Jacquinot, Hubert</persname>
+      <persname source="indexation_libre">Asse, Marie Jeanne</persname>
+      <geogname authfilenumber="d3ntxf9wwp-16fatp3o1m1wc" source="FRAN_RI_005">Villetaneuse (Seine-Saint-Denis)</geogname>
+     </controlaccess>
+    </c>
+    <c id="c-2s0jd14w5--b1dbpx1qe0is" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Bail par Antoine Vineux, marchand demeurant à Montigny en Picardie, à Louis de Rouvroy, maître fondeur, et Marguerite Nicole Mouchy, son épouse, demeurant rue Aumaire, paroisse Saint-Nicolas-des-Champs, d’une maison située même adresse. Loyer annuel de 1050 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-17">17 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8aa0od--1ethxybiwgeht" source="FRAN_RI_001">bail</genreform>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msj1kez-kzu5xhrp3wks" source="FRAN_RI_010">fondeur</occupation>
+      <geogname authfilenumber="d3nz8mlcnt-1syvnchp162yy" source="FRAN_RI_025">Aumaire (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3ntovgw4e-1lhy3djj6a9qr" source="FRAN_RI_005">Maignelay-Montigny (Oise)</geogname>
+      <persname source="indexation_libre">Vineux, Antoine</persname>
+      <persname source="indexation_libre">Rouvroy, Louis de</persname>
+      <persname source="indexation_libre">Mouchy, Marguerite Nicole</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5ingdqsxj-184ol6g5stest" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Bail par Antoine Arnoux Motte, bourgeois de Paris, demeurant rue Galande, paroisse Saint-Étienne-du-Mont, à David Plant, bourgeois de Paris, et Marie-Madeleine Buron, son épouse, demeurant rue de l'Arbalète, faubourg Saint-Marcel, d’une maison située même adresse. Loyer annuel de 850 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-17">17 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8aa0od--1ethxybiwgeht" source="FRAN_RI_001">bail</genreform>
+      <geogname authfilenumber="d3nzakijpx--1vrywvrnzpbop" source="FRAN_RI_025">Galande (rue)</geogname>
+      <geogname authfilenumber="d3nz8jxl7u-1v52zzacbmcgw" source="FRAN_RI_025">Arbalète (rue de l')</geogname>
+      <geogname authfilenumber="d3nyvovxws-1r3061wzh7bqc" source="FRAN_RI_024">Saint-Etienne-du-Mont (paroisse)</geogname>
+      <persname source="indexation_libre">Motte, Antoine Arnoux</persname>
+      <persname source="indexation_libre">Plant, David</persname>
+      <persname source="indexation_libre">Buron, Marie-Madeleine</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5pzwmguyd--1v0m3m6mdsv06" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt de pièces par Thomas Nicolas Menard, avocat, demeurant rue des Fontaines, paroisse Saint-Nicolas-des-Champs, dont substitution, procuration, extrait de testament, notoriété et inventaire après de décès de Jean-Bastiste Candie, ancien payeur des gages du bureau de la généralité de Toulouse.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-17">17 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <genreform authfilenumber="d3nd8d1j9y--1stj96clt05y3" source="FRAN_RI_001">inventaire après décès</genreform>
+      <genreform authfilenumber="d-8da7t9knp--ju2vtil7dkls" source="FRAN_RI_001">testament</genreform>
+      <genreform authfilenumber="d3m00w7w5k2-1s3b7nsr7ls5d" source="FRAN_RI_001">substitution</genreform>
+      <genreform authfilenumber="d3nd8dxom5--1n6okrudb7a4s" source="FRAN_RI_001">notoriété</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d3m0bl70rvh-1axp8xp82x6vh" source="FRAN_RI_010">trésorier payeur (Ancien Régime)</occupation>
+      <geogname authfilenumber="d3nzahb5w0-do36tkqot1b7" source="FRAN_RI_025">Fontaines (rue des)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Menard, Thomas Nicolas</persname>
+      <persname source="indexation_libre">Candie, Jean-Baptiste</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5x0kf1ir5-1sgnur1l1hfe1" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Vente par Jacques Delafond, maître-maçon, entrepreneur de bâtiments et Marie Elisabeth Bridault, mineure, son épouse, demeurant rue et carré de la Porte-Saint-Martin, paroisse Saint-Laurent, à Étienne Martin Girard, peintre de l’Académie de Paris, et Catherine Simone Elisabeth Dugué, son épouse, demeurant rue de Bondy, même paroisse, d’une maison située à Enghien, près Montmorency (Val-d'Oise), pour une somme principale de 2 000 livres</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-17">17 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd89lgo1-7iazj0zqu03g" source="FRAN_RI_001">acte de vente</genreform>
+      <occupation authfilenumber="d699msjm4ua--4cbj2a0fsywa" source="FRAN_RI_010">maçon</occupation>
+      <occupation authfilenumber="d699msit6xq-1e7tbhtd3o7v6" source="FRAN_RI_010">peintre</occupation>
+      <occupation authfilenumber="d699msjj72d-1dedn4099xfyy" source="FRAN_RI_010">chef d'entreprise</occupation>
+      <geogname authfilenumber="d3nzd593xs--dfufmowcjwpu" source="FRAN_RI_025">Saint-Martin (porte)</geogname>
+      <geogname authfilenumber="d3nzd5fnbv--1fbmnb1c9dkph" source="FRAN_RI_025">Saint-Martin (rue)</geogname>
+      <geogname authfilenumber="d3nz8xg7b3--ue0jlr3o84yf" source="FRAN_RI_025">Bondy (rue de)</geogname>
+      <geogname authfilenumber="d3nyvp2o77-1wnswrnmvwf46" source="FRAN_RI_024">Saint-Laurent (paroisse)</geogname>
+      <geogname authfilenumber="d3ntxgcxhs-1l79vstof05mp" source="FRAN_RI_005">Enghien-les-Bains (Val-d'Oise)</geogname>
+      <persname source="indexation_libre">Delafond, Jacques</persname>
+      <persname source="indexation_libre">Bridault, Marie Élisabeth</persname>
+      <persname source="indexation_libre">Girard, Étienne Martin</persname>
+      <persname source="indexation_libre">Dugué, Catherine Simone Élisabeth</persname>
+     </controlaccess>
+    </c>
+    <c id="c-64hrg9lje--1u0zhg525vi4y" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Compte de vente d’immeubles et d’effets mobiliers entre Jacques Alleon, marchand mercier joailler, bourgeois de Paris, demeurant rue Saint-Martin, paroisse Saint-Merri, veuf de Marie Françoise Duperey, elle-même veuve en premières noces de François Duplessis, officier de marine, et en secondes noces de Claude Dominy Duplessis, officier des troupes, et Jean Antoine Edme Mionnet, huissier, commissaire-priseur, demeurant rue de la Poterie, paroisse Saint-Merri, pour une somme principale de 2 703 livres, 8 sols.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-19">19 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msjpuqr-66gt6kmedjiv" source="FRAN_RI_010">officier (armée)</occupation>
+      <occupation authfilenumber="d699msj86wk-9mckogmz1ztg" source="FRAN_RI_010">huissier</occupation>
+      <occupation authfilenumber="d699msiwf0g-1aa6noos8nbln" source="FRAN_RI_010">commissaire-priseur</occupation>
+      <genreform authfilenumber="d3nd89lgo1-7iazj0zqu03g" source="FRAN_RI_001">acte de vente</genreform>
+      <geogname authfilenumber="d3nzd5fnbv--1fbmnb1c9dkph" source="FRAN_RI_025">Saint-Martin (rue)</geogname>
+      <geogname authfilenumber="d3nzcopqfc--uvd93rp5w66y" source="FRAN_RI_025">Poterie (rue de la)</geogname>
+      <geogname authfilenumber="d3nyvp6vb2-rsrcmgk1zmct" source="FRAN_RI_024">Saint-Merri (paroisse)</geogname>
+      <persname source="indexation_libre">Alleon, Jacques</persname>
+      <persname source="indexation_libre">Duperey, Marie Françoise</persname>
+      <persname source="indexation_libre">Duplessis, François</persname>
+      <persname source="indexation_libre">Duplessis, Claude Dominy</persname>
+      <persname source="indexation_libre">Mionnet, Antoine Edme</persname>
+     </controlaccess>
+    </c>
+    <c id="c-6cu4cs1ee-1f8910fy7xmku" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Constitution de rente viagère annuelle et perpétuelle par la Compagnie des Indes, à Jean Dandiran, banquier à Paris, au profit de son fils, André Jacob Dandiran, pour une somme de quatre fois 20 livres (édit d'août 1765).</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-24">24 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bd2c9-e47vue9hkip7" source="FRAN_RI_001">constitution de rente</genreform>
+      <occupation authfilenumber="d3nyu9s4o0--xm3ygup3bbb1" source="FRAN_RI_010">banquier</occupation>
+      <persname source="indexation_libre">Dandiran, Jean</persname>
+      <persname source="indexation_libre">Dandiran, André Jacob</persname>
+     </controlaccess>
+    </c>
+    <c id="c-6mi5t6zmi-1gvwdmsdr777v" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Bail par Henri Heulte, maître doreur, et Marie Ursule Berger, son épouse, demeurant rue du Faubourg-Saint-Martin, paroisse Saint-Laurent, à Jean-Baptiste Rousset, garde de l’Hôtel de ville, et Jeanne Garnier, son épouse, demeurant rue de la Heaumerie, paroisse rue Saint-Jacques-de-la-Boucherie, d’une maison située rue Aumaire, paroisse Saint-Nicolas-des-Champs. Loyer annuel de 1000 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-25">25 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8aa0od--1ethxybiwgeht" source="FRAN_RI_001">bail</genreform>
+      <occupation authfilenumber="d699msjdps0--1hzktwbvq279p" source="FRAN_RI_010">décorateur</occupation>
+      <geogname authfilenumber="d3nzaef6ww--poi45l8zzzy3" source="FRAN_RI_025">Faubourg-Saint-Martin (rue du)</geogname>
+      <geogname authfilenumber="d3nzbcrm0e--q1buglp4gd7w" source="FRAN_RI_025">Heaumerie (rue de la)</geogname>
+      <geogname authfilenumber="d3nz8mlcnt-1syvnchp162yy" source="FRAN_RI_025">Aumaire (rue)</geogname>
+      <geogname authfilenumber="d3nyvp2o77-1wnswrnmvwf46" source="FRAN_RI_024">Saint-Laurent (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvozckb-wk5djyktth83" source="FRAN_RI_024">Saint-Jacques-de-la-Boucherie (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Heulte, Henri</persname>
+      <persname source="indexation_libre">Berger, Marie Ursule</persname>
+      <persname source="indexation_libre">Rousset, Jean-Baptiste</persname>
+     </controlaccess>
+    </c>
+    <c id="c-6y9vxpwec--u0b7a0vaz0qd" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Inventaire après décès d’Adélaïde Charlotte Popot, dressé à la requête de Pierre Nicolas Eustache Landelle, son mari, avocat en Parlement, conseiller du roi, commissaire enquêteur et examinateur au Châtelet de Paris, demeurant rue de Tournon, paroisse Saint-Sulpice, et comme tuteur naturel de leur fille, Marie Adélaïde Landelle, en présence de Pierre Popot, procureur au Châtelet de Paris, demeurant rue du Four, paroisse Saint-Sulpice.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-26">26 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8d1j9y--1stj96clt05y3" source="FRAN_RI_001">inventaire après décès</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d3m0bl74hdl-6vhnk4hry8uj" source="FRAN_RI_010">procureur de justice (Ancien Régime)</occupation>
+      <occupation authfilenumber="d3m0bl7a4lp--w3x827ncrkws" source="FRAN_RI_010">commissaire au Châtelet (Ancien Régime)</occupation>
+      <geogname authfilenumber="d3nzai8akv-16nhfbh8wayo7" source="FRAN_RI_025">Four (rue du)</geogname>
+      <geogname authfilenumber="d3nzdjamzb-1sir8i5qb0z1q" source="FRAN_RI_025">Tournon (rue de)</geogname>
+      <geogname authfilenumber="d3nyvpcbgs-1cppi2iacclig" source="FRAN_RI_024">Saint-Sulpice (paroisse)</geogname>
+      <persname source="indexation_libre">Popot, Adelaide Charlotte</persname>
+      <persname source="indexation_libre">Landelle, Pierre Nicolas Eustache</persname>
+      <persname source="indexation_libre">Landelle, Marie Adélaide</persname>
+      <persname source="indexation_libre">Popot, Pierre</persname>
+     </controlaccess>
+    </c>
+    <c id="c-4o7m25t8--1nw02nnap0xzh" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Constitution de rente héréditaire sur les aides et gabelles au profit de François Gabriel Demarandel, avocat en Parlement, notaire honoraire, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, pour une somme de 188 livres (édit de février 1770).</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-27">27 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bd2c9-e47vue9hkip7" source="FRAN_RI_001">constitution de rente</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d3nyu9x713-9kcjiv44l4wh" source="FRAN_RI_010">notaire</occupation>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Demarandel, François Gabriel</persname>
+     </controlaccess>
+    </c>
+    <c id="c-9cfqyaie--m9q7e97ydyb0" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Quittance par Jacques Marion, marchand de soie, Étienne Marion, quincaillier, Jacques Martin Rocquet, horloger, maître des droits de son épouse, Marie Jeanne Marion, elle-même épouse en premières noces de Pierre Jérôme Petit, et Madeleine Marion, Pierre Louis Marion, ancien entrepreneur de bâtiments, tous représentés par Jacques Le Bad, procureur au parlement de Paris, demeurant rue du Jardinet, paroisse Saint-Côme, à Charles Binet de la Bretonnière, receveur général des domaines et bois de Paris, pour la vente de biens lors de la succession d’Adrien Florent Boujust. Egalement signalés dans l’acte, Pierre Boudin, agent de change, Pierre Jean Lopin, écuyer fourier des logis de Monsieur Frère du Roi, Louis Colombier, maître charpentier, Pierre François Le Lorain, maître menuisier, Charlotte Geneviève Lochard, Christophe Gabriel Helie, maitre en chirurgie, etc.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-27">27 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msjljue-1zw1e89uj89i" source="FRAN_RI_010">horloger</occupation>
+      <occupation authfilenumber="d699msjj72d-1dedn4099xfyy" source="FRAN_RI_010">chef d'entreprise</occupation>
+      <occupation authfilenumber="d3m0bl6tfn3--1ki0d3yfobfyj" source="FRAN_RI_010">procureur du roi (Ancien Régime)</occupation>
+      <occupation authfilenumber="d699msk528k--nptwe9to3wux" source="FRAN_RI_010">percepteur</occupation>
+      <occupation authfilenumber="d699msjilo8-nlzo91q1gzma" source="FRAN_RI_010">charpentier</occupation>
+      <occupation authfilenumber="d699msjk6px-1991l3mvmuk67" source="FRAN_RI_010">menuisier</occupation>
+      <occupation authfilenumber="d699msjkkzd-4cj978nnjzhw" source="FRAN_RI_010">chirurgien</occupation>
+      <genreform authfilenumber="d3nd8dc8p2-nyxarkw0ppoi" source="FRAN_RI_001">quittance</genreform>
+      <persname source="indexation_libre">Marion, Jacques</persname>
+      <persname source="indexation_libre">Marion, Étienne</persname>
+      <persname source="indexation_libre">Rocquet, Jacques Martin</persname>
+      <persname source="indexation_libre">Marion, Marie Jeanne</persname>
+      <persname source="indexation_libre">Petit, Pierre Jérôme</persname>
+      <persname source="indexation_libre">Marion, Madeleine</persname>
+      <persname source="indexation_libre">Marion, Pierre Louis</persname>
+      <persname source="indexation_libre">Le Bad, Jacques</persname>
+      <persname source="indexation_libre">Binet de la Bretonnière, Charles</persname>
+      <persname source="indexation_libre">Boujust, Adrien Florent</persname>
+      <persname source="indexation_libre">Boudin, Pierre</persname>
+      <persname source="indexation_libre">Colombier, Louis</persname>
+      <persname source="indexation_libre">Le Lorain, Pierre François</persname>
+      <persname source="indexation_libre">Lochard, Charlotte</persname>
+      <persname source="indexation_libre">Helie, Christophe Gabriel</persname>
+      <geogname authfilenumber="d3nzbhxipa--l53nn5hk0n5r" source="FRAN_RI_025">Jardinet (rue du)</geogname>
+      <geogname authfilenumber="d3m0bqhpc81-7vk81se15cry" source="FRAN_RI_024">Saint-Côme-Saint-Damien (paroisse)</geogname>
+     </controlaccess>
+    </c>
+    <c id="c-1kwv6e4b7--1w1xyk86wy1k8" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Donation par Marie Thérèse Barry, demeurant rue Saint-Martin, paroisse Saint-Laurent, à Anne Françoise Marie Dalmais de Curnieux, sa nièce, sous-gouvernante des enfants du comte d’Artois, épouse d’Étienne Champion de Marsilly, de meubles et somme d’argent.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-28">28 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8cauyi-zz087oqu7vc" source="FRAN_RI_001">donation</genreform>
+      <geogname authfilenumber="d3nzd5fnbv--1fbmnb1c9dkph" source="FRAN_RI_025">Saint-Martin (rue)</geogname>
+      <geogname authfilenumber="d3nyvp2o77-1wnswrnmvwf46" source="FRAN_RI_024">Saint-Laurent (paroisse)</geogname>
+      <persname source="indexation_libre">Barry, Marie Thérèse</persname>
+      <persname source="indexation_libre">Dalmais de Curnieux, Anne françoise Marie</persname>
+      <persname source="indexation_libre">Champion de Marsilly, Étienne</persname>
+      <occupation authfilenumber="d699msj43xg--z4sg02667lbi" source="FRAN_RI_010">employé de maison</occupation>
+     </controlaccess>
+    </c>
+    <c id="c-1pl2sannt-18ws8km110507" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt d’une procuration par Jean Louis Mottedescombes, bourgeois de Paris, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, donnée par Olympe Leconte, citoyenne de Genève (Suisse), demeurant rue de la Pellisserie, paroisse Saint-Pierre, à Jean Dandiran, banquier à Paris, pour toucher des arrérages et autres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-29">29 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <occupation authfilenumber="d3nyu9s4o0--xm3ygup3bbb1" source="FRAN_RI_010">banquier</occupation>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3ntxneowl-14664lubz96s3" source="FRAN_RI_005">Genève (Suisse)</geogname>
+      <persname source="indexation_libre">Mottedescombes, Jean Louis</persname>
+      <persname source="indexation_libre">Leconte, Olympe</persname>
+      <persname source="indexation_libre">Dandiran, Jean</persname>
+     </controlaccess>
+    </c>
+    <c id="c-21lbs0n6a-w5gzgsyhyf93" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Notoriété après décès de Jean Pierre Labroüe, marchand chapelier à Paris, décédé à Londres (Angleterre), le 21 janvier 1767, sur les déclarations de Jacques Verrier, bourgeois de Paris, demeurant rue et paroisse Saint-Germain-l’Auxerrois, et Jean Charles Gautier, marchand orfèvre joaillier, demeurant quai des Orfèvres, paroisse Saint-Barthélemy.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-07-31">31 juillet 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dxom5--1n6okrudb7a4s" source="FRAN_RI_001">notoriété</genreform>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msjq8lx--rvptbxbjgknx" source="FRAN_RI_010">orfèvre</occupation>
+      <geogname authfilenumber="d3nzd2y5sj-7sr9qedw4k60" source="FRAN_RI_025">Saint-Germain-l'Auxerrois (rue)</geogname>
+      <geogname authfilenumber="d3nzcazgmw-e5alnqnm2ttx" source="FRAN_RI_025">Orfèvres (quai des)</geogname>
+      <geogname authfilenumber="d3nyvox0hv--s68ql74wtyjp" source="FRAN_RI_024">Saint-Germain-l'Auxerrois (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvost68-1tq3k980risj5" source="FRAN_RI_024">Saint-Barthélemy (paroisse)</geogname>
+      <occupation authfilenumber="d3m0bl71n64-1elxe0217iomp" source="FRAN_RI_010">fabricant d'accessoires vestimentaires</occupation>
+      <persname source="indexation_libre">Labroue, Jean Pierre</persname>
+      <persname source="indexation_libre">Verrier, Jacques</persname>
+      <persname source="indexation_libre">Gautier, Jean Charles</persname>
+     </controlaccess>
+    </c>
+    <c id="c-2abtpzpel--7s2jfp2zi177" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Quittance par Théodore Marie Vaujugen, veuve de François Demeulder, ancien docteur en médecine, demeurant à Gand, et Jacques François Vandermacren, négociant à Gand, et Marie Françoise Demeulder, son épouse, et Étienne Lapierre, marchand apothicaire, demeurant rue Saint-Antoine, paroisse Saint-Paul, tous représentés par Marie-Madeleine Cozette, veuve d’Henri Ancion, ancien négociant à Paris, demeurant rue Saint-Étienne, paroisse Saint-Benoît, à Charles Binet de la Bretonnière, receveur général des domaines et bois de Paris, pour règlement de la succession d’Adrien Florent Boujust.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-01">1er août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <occupation authfilenumber="d3m0bl75klh--1t7fg4aiisk0f" source="FRAN_RI_010">négociant</occupation>
+      <occupation authfilenumber="d699msjarlu--l5x9bzdkopz8" source="FRAN_RI_010">médecin</occupation>
+      <occupation authfilenumber="d699msiyuyk--xr0m9w1fjqyu" source="FRAN_RI_010">pharmacien</occupation>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d3m0bl70rvh-1axp8xp82x6vh" source="FRAN_RI_010">trésorier payeur (Ancien Régime)</occupation>
+      <genreform authfilenumber="d3nd8dc8p2-nyxarkw0ppoi" source="FRAN_RI_001">quittance</genreform>
+      <persname source="indexation_libre">Vaujugen, Théodore Marie</persname>
+      <persname source="indexation_libre">Demeulder, François</persname>
+      <persname source="indexation_libre">Vandermarcen, Jacques François</persname>
+      <persname source="indexation_libre">Demeulder, Marie Françoise</persname>
+      <persname source="indexation_libre">Lapierre, Étienne</persname>
+      <persname source="indexation_libre">Cozette, Marie-Madeleine</persname>
+      <persname source="indexation_libre">Ancion, Henri</persname>
+      <geogname authfilenumber="d3nzd15vbw-k0h1w454w4f8" source="FRAN_RI_025">Saint-Antoine (rue)</geogname>
+      <geogname authfilenumber="d3nzd2ie83--1hqe2uobet3ra" source="FRAN_RI_025">Saint-Etienne (rue)</geogname>
+      <geogname authfilenumber="d3nyvp8zed--rdzkw0dkb1pg" source="FRAN_RI_024">Saint-Paul (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvot58t--198f1uuwdsl99" source="FRAN_RI_024">Saint-Benoît (paroisse)</geogname>
+      <geogname authfilenumber="d3ntxndivd-jucr8kq8hgi1" source="FRAN_RI_005">Gand (Belgique)</geogname>
+      <persname source="indexation_libre">Binet de la Bretonnière, Charles</persname>
+      <persname source="indexation_libre">Boujust, Adrien Florent</persname>
+     </controlaccess>
+    </c>
+    <c id="c-2iu2xdltd--xxhwzcgfcmip" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Création d’une société entre Thomas François Buisson, maître parfumeur, Anne Marguerite Delamotte, son épouse, demeurant rue Pastourelle, paroisse Saint-Nicolas-des-Champs, et Jean Eloi Godefroy, parfumeur, demeurant même adresse, ayant pour objet le commerce du parfum.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-02">2 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8f9b6b-1ezu1k5fbcyoz" source="FRAN_RI_001">acte de société</genreform>
+      <occupation authfilenumber="d3m0bl72yb9-1iiterpz938uf" source="FRAN_RI_010">parfumeur</occupation>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <geogname authfilenumber="d3nzcdltmz-1p7zyshk2dvf0" source="FRAN_RI_025">Pastourelle (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Buisson, Thomas François</persname>
+      <persname source="indexation_libre">Delamotte, Anne Marguerite</persname>
+      <persname source="indexation_libre">Godefroy, Jean Eloi</persname>
+     </controlaccess>
+    </c>
+    <c id="c-2oe7xkhja-1jkxzr4n8zm5k" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt de procurations par Jean Louis Mottedescombes, bourgeois de Paris, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, données par Charles Claude Gouge, avocat à Laon, Joseph Marie Auguste Delaleu, Jean Duminy, et Thomas Nicolas Menard, avocat, demeurant rue des Fontaines, paroisse Saint-Nicolas-des-Champs, pour arrérages, etc.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-03">3 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nzahb5w0-do36tkqot1b7" source="FRAN_RI_025">Fontaines (rue des)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <persname source="indexation_libre">Mottedescombes, Jean Louis</persname>
+      <persname source="indexation_libre">Gouge, Charles Claude</persname>
+      <persname source="indexation_libre">Delaleu, Joseph Marie Auguste</persname>
+      <persname source="indexation_libre">Duminy, Jean</persname>
+      <persname source="indexation_libre">Menard, Thomas Nicolas</persname>
+     </controlaccess>
+    </c>
+    <c id="c-3588az62v--dioet8lnmrs8" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Transport par Sébastien Loyson, avocat en parlement, demeurant rue des Fossés, paroisse Saint-Germain-l’Auxerrois, sur Augustin Joseph Du Gouyon, colonel d’infanterie, demeurant à Nantes, d’une somme de 4 627 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-03">3 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3m00w8dl27--jxkj8k5bbsim" source="FRAN_RI_001">transport de droits</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d699msjpuqr-66gt6kmedjiv" source="FRAN_RI_010">officier (armée)</occupation>
+      <geogname authfilenumber="d3ntiwd9iq--ybilysorpjmc" source="FRAN_RI_005">Nantes (Loire-Atlantique)</geogname>
+      <geogname authfilenumber="d3nzahvcjf-lovf6w89waz4" source="FRAN_RI_025">Fossés (rue des)</geogname>
+      <geogname authfilenumber="d3nyvox0hv--s68ql74wtyjp" source="FRAN_RI_024">Saint-Germain-l'Auxerrois (paroisse)</geogname>
+     </controlaccess>
+    </c>
+    <c id="c-3aokseb2w-1ut3xe5enhuv9" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Déclaration par Elisabeth Agnès Wattier, avocat en Parlement, demeurant rue Jean-Tison, paroisse Saint-Germain-l’Auxerrois, à Augustin Joseph Du Gouyon, colonel d’infanterie, demeurant à Nantes, pour transport de diverses sommes d’argent.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-03">3 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Informations complémentaires :</emph>
+      </p>
+      <p>Fragments.</p>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bq6ez-1daxfsx19z37l" source="FRAN_RI_001">déclaration</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d699msjpuqr-66gt6kmedjiv" source="FRAN_RI_010">officier (armée)</occupation>
+      <geogname authfilenumber="d3ntiwd9iq--ybilysorpjmc" source="FRAN_RI_005">Nantes (Loire-Atlantique)</geogname>
+      <geogname authfilenumber="d3nzbjonrz--1tuir7jko92o1" source="FRAN_RI_025">Jean-Tison (rue)</geogname>
+      <geogname authfilenumber="d3nyvox0hv--s68ql74wtyjp" source="FRAN_RI_024">Saint-Germain-l'Auxerrois (paroisse)</geogname>
+      <persname source="indexation_libre">Wattier, Élisabeth Agnès</persname>
+      <persname source="indexation_libre">Gouyon, Joseph du</persname>
+     </controlaccess>
+    </c>
+    <c id="c-3b1p2t3kn-1ahfj358vwjly" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Constitution de rente viagère annuelle et perpétuelle par François Étienne Lenoir de Balay, écuyer, et Marie Jeanne de Lamoninary, son épouse, demeurant rue Bourbon-Villeneuve, paroisse Notre-Dame-de-Bonne-Nouvelle, au profit des hoirs de Jacques Joseph Lenoir, conseiller trésorier général des offrandes, aumônes, bonnes œuvres et dévotions, pour une somme de 1250 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-04">4 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bd2c9-e47vue9hkip7" source="FRAN_RI_001">constitution de rente</genreform>
+      <occupation authfilenumber="d3m0bl79hmj-1ljboj04wr8q9" source="FRAN_RI_010">trésorier</occupation>
+      <geogname authfilenumber="d3nz8yuzgu-1n8urukzfkik4" source="FRAN_RI_025">Bourbon-Villeneuve (rue de)</geogname>
+      <geogname authfilenumber="d3nyvp7xw4-1u0dpm6pjpet7" source="FRAN_RI_024">Notre-Dame-de-Bonne-Nouvelle (paroisse)</geogname>
+      <persname source="indexation_libre">Lenoir de Balay, François Étienne</persname>
+      <persname source="indexation_libre">Lamoninary, Marie Jeanne de</persname>
+      <persname source="indexation_libre">Lenoir, Jacques Joseph</persname>
+     </controlaccess>
+    </c>
+    <c id="c-3jok6jt0l--1aor9rvcufq2t" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Constitution de rentes viagères annuelles et perpétuelles par Jean Durand, maître perruquier, et Marie Cécile Dely, son épouse, demeurant rue Simon-le-Franc, paroisse Saint-Merri, au profit de Pierre Chalot, marchand de blondes et de dentelles, demeurant à Roissy, ainsi qu’à la veuve Lemaitre, la veuve Leduc, et autres. Egalement signalés dans l’acte, Pierre Maupetit et Guillaume Guillemin de Savigny, maître perruquier.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-05">5 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bd2c9-e47vue9hkip7" source="FRAN_RI_001">constitution de rente</genreform>
+      <occupation authfilenumber="d699msj8l60--r9j12zzm9rwp" source="FRAN_RI_010">coiffeur</occupation>
+      <geogname authfilenumber="d3nzdbt8j0--5mgx4q5bqs7r" source="FRAN_RI_025">Simon-Le-Franc (rue)</geogname>
+      <geogname authfilenumber="d3nyvp6vb2-rsrcmgk1zmct" source="FRAN_RI_024">Saint-Merri (paroisse)</geogname>
+      <geogname authfilenumber="d3ntxhais6--1amapr1k2dhah" source="FRAN_RI_005">Roissy-en-France (Val-d'Oise)</geogname>
+      <persname source="indexation_libre">Durand, Jean</persname>
+      <persname source="indexation_libre">Dely, Marie Cécile</persname>
+      <persname source="indexation_libre">Chalot, Pierre</persname>
+      <persname source="indexation_libre">Maupetit, Pierre</persname>
+      <persname source="indexation_libre">Guillemin de Savigny, Guillaume</persname>
+      <persname source="indexation_libre">Lemaître (veuve)</persname>
+      <persname source="indexation_libre">Leduc (veuve)</persname>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+     </controlaccess>
+    </c>
+    <c id="c-3syveqfem--57qc4lnvo735" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Obligation et transport par Claude François Rougeot, écuyer, fermier général, demeurant rue Saint-Honoré, paroisse Saint-Roch, au profit de François Gabriel Demarandel, avocat en Parlement, notaire honoraire, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, pour une somme de 8000 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-06">6 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8e0yqp-1qnzg5md0cw8q" source="FRAN_RI_001">obligation</genreform>
+      <genreform authfilenumber="d3m00w8dl27--jxkj8k5bbsim" source="FRAN_RI_001">transport de droits</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d3m0bl759we-1qfz4kgpyc2dp" source="FRAN_RI_010">administrateur</occupation>
+      <occupation authfilenumber="d3nyu9x713-9kcjiv44l4wh" source="FRAN_RI_010">notaire</occupation>
+      <geogname authfilenumber="d3nzd36jkq-2di11qojb16k" source="FRAN_RI_025">Saint-Honoré (rue)</geogname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvpb1c4--1dpne8gngxarf" source="FRAN_RI_024">Saint-Roch (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Rougeot, Claude François</persname>
+      <persname source="indexation_libre">Demarandel, François Gabriel</persname>
+     </controlaccess>
+    </c>
+    <c id="c-3xdyzg9h2-azqclrdntsry" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Transport par Michel Gaudonnay, maître maçon, demeurant rue de Sèvres, paroisse Saint-Sulpice, au profit de Bonnaventure Potier, avocat en Parlement, notaire honoraire, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, pour une somme de 600 livres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-08">8 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3m00w8dl27--jxkj8k5bbsim" source="FRAN_RI_001">transport de droits</genreform>
+      <occupation authfilenumber="d699msj742x--12cnnohd8i9wj" source="FRAN_RI_010">avocat</occupation>
+      <occupation authfilenumber="d3nyu9x713-9kcjiv44l4wh" source="FRAN_RI_010">notaire</occupation>
+      <occupation authfilenumber="d699msjm4ua--4cbj2a0fsywa" source="FRAN_RI_010">maçon</occupation>
+      <geogname authfilenumber="d3nzdbfpd2--tk8uh0bp1w7a" source="FRAN_RI_025">Sèvres (rue de)</geogname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvpcbgs-1cppi2iacclig" source="FRAN_RI_024">Saint-Sulpice (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <persname source="indexation_libre">Gaudonnay, Michel</persname>
+      <persname source="indexation_libre">Potier, Bonnaventure</persname>
+     </controlaccess>
+    </c>
+    <c id="c-43pvd214e--hszwcogmzd2u" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt de pièces par Jean Louis Mottedescombes, bourgeois de Paris, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, l’une signée de feu Nicolas Joseph de Brouchoven, comte de Bergeÿck, l’autre de Charles Berthout Van Melechen et Norbert J. Bonn, échevins de la ville d’Anvers.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-08">8 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bwnv7-ot62i2ixeny3" source="FRAN_RI_001">dépôt de pièces</genreform>
+      <persname source="indexation_libre">Mottedescombes, Jean Louis</persname>
+      <persname source="indexation_libre">Brouchoven, Nicolas Joseph de</persname>
+      <persname source="indexation_libre">Berthout Van Melechen, Charles</persname>
+      <persname source="indexation_libre">Bonn, Norbert</persname>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <geogname authfilenumber="d3ntxmef1n-f9nz10ywj4gt" source="FRAN_RI_005">Anvers (Belgique)</geogname>
+     </controlaccess>
+    </c>
+    <c id="c-57gve0mf1-1ptrww5f48m3" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Notoriété concernant les prénoms de Charles Gabriel Defroment, chanoine prêtre, prieur de Pierremale, demeurant à Uzès (Gard), sur les déclarations d’Antoine Dervillé et de Claude Leclerc, tout deux bourgeois de Paris, demeurant rue de l'Université, paroisse Saint-Sulpice.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-08">8 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dxom5--1n6okrudb7a4s" source="FRAN_RI_001">notoriété</genreform>
+      <occupation authfilenumber="d699msjd4dv--14ekvu9jh4wb9" source="FRAN_RI_010">prêtre</occupation>
+      <geogname authfilenumber="d3nth48oc7-21txbtnjmic4" source="FRAN_RI_005">Uzès (Gard)</geogname>
+      <geogname authfilenumber="d3nzdlytap--sq1fociwxfxx" source="FRAN_RI_025">Université (rue de l')</geogname>
+      <geogname authfilenumber="d3nyvpcbgs-1cppi2iacclig" source="FRAN_RI_024">Saint-Sulpice (paroisse)</geogname>
+      <persname source="indexation_libre">Defroment, Charles Gabriel</persname>
+      <persname source="indexation_libre">Dervillé, Antoine</persname>
+      <persname source="indexation_libre">Leclerc, Claude</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5g5k92ncm-xbyzw6suj9jo" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Dépôt de pièces, dont procuration et mémoire de comptes, par Philippe Antoine Boulanger, bourgeois de Paris, demeurant rue et paroisse Saint-Paul, concernant Pierre Rullier, machand bijoutier, demeurant ordinairement enclos du Temple, paroisse Sainte-Marie-du-Temple, actuellement détenu à la prison du For-l’Evêque, paroisse Saint-Germain-l’Auxerrois.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-09">9 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8bwnv7-ot62i2ixeny3" source="FRAN_RI_001">dépôt de pièces</genreform>
+      <genreform authfilenumber="d3nd8efxut-73bdmxk10sbw" source="FRAN_RI_001">procuration</genreform>
+      <genreform authfilenumber="d3nd8b42sa-2vo6rr7qrxfh" source="FRAN_RI_001">compte</genreform>
+      <occupation authfilenumber="d699msjq8lx--rvptbxbjgknx" source="FRAN_RI_010">orfèvre</occupation>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <geogname authfilenumber="d3nzuiuos4-g06vktl1tjyd" source="FRAN_RI_026">For-l'Evêque (prison de)</geogname>
+      <geogname authfilenumber="d3nyvox0hv--s68ql74wtyjp" source="FRAN_RI_024">Saint-Germain-l'Auxerrois (paroisse)</geogname>
+      <geogname authfilenumber="d3nyvp59jc--vmsessgb72c2" source="FRAN_RI_024">Sainte-Marie-du-Temple (paroisse)</geogname>
+      <geogname authfilenumber="d3m0cug9d6t--1rqiwixxktat8" source="FRAN_RI_026">Temple (enclos)</geogname>
+      <geogname authfilenumber="d3nyvp8zed--rdzkw0dkb1pg" source="FRAN_RI_024">Saint-Paul (paroisse)</geogname>
+      <geogname authfilenumber="d3nzd665e9-y1sk251q6no1" source="FRAN_RI_025">Saint-Paul (rue)</geogname>
+      <persname source="indexation_libre">Boulanger, Philippe Antoine</persname>
+      <persname source="indexation_libre">Rullier, Pierre</persname>
+     </controlaccess>
+    </c>
+    <c id="c-5q8c1t8p1--etv6w1al5a88" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Aveu et dénombrement par Jean Dugué, chevalier, conseiller du roi, demeurant rue Copeau, faubourg Saint-Marceau, paroisse Saint-Étienne-du-Mont, aux religieuses de La Saussaye de Villejust à Villejust (Essonne), pour déclaration à titre d’emphitéose et d’avouerie auxdites dames sur pièces de terre et autres.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-11">11 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d5b8d40zmm--17yo450mcyfxx" source="FRAN_RI_001">déclaration féodale</genreform>
+      <occupation authfilenumber="d699msjh9ca-1o4fomkg2k4bp" source="FRAN_RI_010">conseiller du roi</occupation>
+      <occupation authfilenumber="d699msikopd--xib7lmf6g7up" source="FRAN_RI_010">religieux</occupation>
+      <geogname authfilenumber="d3ntxea68e--1ihpw4vz9k4ck" source="FRAN_RI_005">Villejust (Essonne)</geogname>
+      <geogname authfilenumber="d3nzaeeu71-11ugl9euqu9o9" source="FRAN_RI_025">Faubourg-Saint-Marceau (rue du)</geogname>
+      <geogname authfilenumber="d3nyvovxws-1r3061wzh7bqc" source="FRAN_RI_024">Saint-Etienne-du-Mont (paroisse)</geogname>
+      <persname source="indexation_libre">Dugué, Jean</persname>
+     </controlaccess>
+    </c>
+    <c id="c-6178wmeka--dqs48r6gtj7z" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Quittance par René Amiot, demeurant à Blois, représenté par Honoré Alexandre René Amiot, procureur au Châtelet de Paris, demeurant rue Michel-le-Comte, paroisse Saint-Nicolas-des-Champs, pour somme de 3000 livres, reçue de Joseph Miault d’Harvelay, conseiller du roi.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-16">16 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8dc8p2-nyxarkw0ppoi" source="FRAN_RI_001">quittance</genreform>
+      <occupation authfilenumber="d3m0bl74hdl-6vhnk4hry8uj" source="FRAN_RI_010">procureur de justice (Ancien Régime)</occupation>
+      <geogname authfilenumber="d3nzc1vcem--q4qy5e15122d" source="FRAN_RI_025">Michel-Le-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp76qc--1xdxyf9lzzthw" source="FRAN_RI_024">Saint-Nicolas-des-Champs (paroisse)</geogname>
+      <occupation authfilenumber="d699msjh9ca-1o4fomkg2k4bp" source="FRAN_RI_010">conseiller du roi</occupation>
+      <geogname authfilenumber="d3ntb9ptpw--1n80mazj59xnl" source="FRAN_RI_005">Blois (Loir-et-Cher , arrondissement)</geogname>
+      <persname source="indexation_libre">Amiot, René</persname>
+      <persname source="indexation_libre">Amiot, Honoré Alexandre René</persname>
+      <persname source="indexation_libre">Miault, Joseph</persname>
+     </controlaccess>
+    </c>
+    <c id="c-62ylfnfuv--ny6cmakcs935" level="item">
+    <did>
+     <unitid type="cote-de-consultation">MC/ET/LXVII/717</unitid>
+      <unittitle>Présentation de compte par Jean Lenormand, bourgeois de Paris, demeurant rue Salle-au-Comte, paroisse Saint-Gilles, curateur à la succession vacante de Pierre Le Preux, ancien marchand charcutier, ayant demeuré à la Haute-Courtille, paroisse de Belleville, et abondonnement par Philippe Badier, charcutier, demeurant même lieu, époux de Jeanne Salmon, charcutière, veuve en premières noces du défunt.</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1775-08-17">17 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Origine de l'information : </emph>
+      </p>
+      <p>Acte signalé par le personnel du Minutier central des notaires de Paris</p>
+      <p>
+       <emph render="bold">Date de création de la notice :</emph> 2016 (M. Durand)</p>
+     </scopecontent>
+     <controlaccess>
+      <genreform authfilenumber="d3nd8b5v0t--1nmsgc3k8tunk" source="FRAN_RI_001">compte d'exécution testamentaire</genreform>
+      <occupation authfilenumber="d699msja67p--7kxb9z0cvgzw" source="FRAN_RI_010">commerçant</occupation>
+      <occupation authfilenumber="d699msjcbv0-29thpwstmx5y" source="FRAN_RI_010">charcutier</occupation>
+      <geogname authfilenumber="d3nzd90152--qpigodly9jvl" source="FRAN_RI_025">Salle-au-Comte (rue)</geogname>
+      <geogname authfilenumber="d3nyvp309r-fxzjuc9ul5cl" source="FRAN_RI_024">Saint-Leu-Saint-Gilles (paroisse)</geogname>
+      <persname source="indexation_libre">Lenormand, Jean</persname>
+      <persname source="indexation_libre">Preux, Pierre le</persname>
+      <persname source="indexation_libre">Badier, Philippe</persname>
+      <persname source="indexation_libre">Salmon, Jeanne</persname>
+     </controlaccess>
+    </c>
+   </c>
+   <c id="c-9e5fyrev8-1q2ow1neojaaf" level="series">
+   <did>
+    <unitid type="identifiant">MC/RE/LXVII/9</unitid>
+     <unittitle>Répertoire(s) de Jean Joseph DESCHAMBEAUX</unittitle>
+     <unitdate calendar="gregorian" era="ce" normal="1756-01-06/1775-08-17">6 janvier 1756 - 17 août 1775</unitdate>
+    </did>
+    <c id="c-9e5g27j00-edq9w4dod08e" level="recordgrp">
+    <did>
+     <unitid type="cote-de-consultation">MC/RE/LXVII/9</unitid>
+      <unittitle>Répertoire. 1756, 6 janvier - 1775, 17 août</unittitle>
+      <unitdate calendar="gregorian" era="ce" normal="1756-01-06/1775-08-17">6 janvier 1756 - 17 août 1775</unitdate>
+     </did>
+     <scopecontent>
+      <p>
+       <emph render="bold">Informations complémentaires :</emph>
+      </p>
+      <p>Répertoire des notaires Simon Hurtrelle, substitué par Jean François Guesnon (6 janvier - 24 février 1756), François Gabriel Demarandel (4 mars 1756 - 26 juin 1775), Jean Joseph Deschambeaux (29 juin - 17 août 1775).</p>
+      <p>
+       <emph render="bold">Informations concernant le classement et la cotation :</emph>
+      </p>
+      <p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</p>
+     </scopecontent>
+    </c>
+   </c>
+  </dsc>
+ </archdesc>
+</ead>
