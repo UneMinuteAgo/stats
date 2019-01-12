@@ -303,6 +303,18 @@ function Pie(){
         return self;
     };
 
+    self.load = function(file) {
+        var select = document.querySelector('#xmlFile');
+
+        new xhrQuery().target("lib/iface/occupation.php").values("file=" + select.value).callbacks(function(e) {
+            document.querySelectorAll('svg').forEach(function(el) {
+                el.parentNode.removeChild(el);
+            });
+            console.log(e);
+            self.target(document.body).make(JSON.parse(e), function(d){return d.value;})
+        }).send()
+    };
+
     return self;
 }
 
@@ -321,6 +333,10 @@ function applySettings() {
     PIE.size(width, height).arcShape(arcIn, arcOut, arcPad).target(document.body).make(data, function(c) {
         return c.val;
     });
+
+    // PIE.target().target(document.body).make(data, function(c) {
+    //     return c.val;
+    // });
 }
 
 var data = [

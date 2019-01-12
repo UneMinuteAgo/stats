@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "68038ed8b8dd131f7d23977e0c27bb53",
+    "content-hash": "982f38339ef32434613883f5172ff2a6",
     "packages": [],
     "packages-dev": [
         {
@@ -1113,6 +1113,44 @@
                 "object graph"
             ],
             "time": "2017-10-19T19:58:43+00:00"
+        },
+        {
+            "name": "neooblaster/template",
+            "version": "v3.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neooblaster/Template.git",
+                "reference": "18ffb205443de149d62188a3569da9930bcb98eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neooblaster/Template/zipball/18ffb205443de149d62188a3569da9930bcb98eb",
+                "reference": "18ffb205443de149d62188a3569da9930bcb98eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Template\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Nicolas DUPRE",
+                    "email": "neo-blaster@hotmail.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP Template engine based on Smarty syntax.",
+            "keywords": [
+                "php",
+                "template"
+            ],
+            "time": "2018-03-12T23:29:37+00:00"
         },
         {
             "name": "neooblaster/xhrquery",

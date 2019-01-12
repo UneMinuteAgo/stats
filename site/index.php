@@ -22,5 +22,23 @@
 
 <input type="button" onclick="applySettings();" value="Appliquer"/>
 
+<br />
+<select name="" id="xmlFile">
+    <?php
+    $folder = "lib/xml";
+    $files = scandir($folder);
+
+    for ($f = 0; $f < count($files); $f++) {
+        $file = $files[$f];
+        if (is_dir("$folder/$file")) continue;
+        echo "<option value='$file'>$file</option>";
+    }
+    ?>
+</select>
+<input type="button" value="Charger Données" onclick="PIE.load();"/>
+
+<pre>
+</pre>
+
 </body>
 </html>
