@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>D3.js Graphs Dynamic</title>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="lib/vendor/neooblaster/xhrQuery/src/xhrQuery.js" onerror="alert('xhrQuery not available. Please check dependancies with \'composer update\'')"></script>
+    <script src="lib/vendor/neooblaster/xhrquery/src/xhrQuery.js" onerror="alert('xhrQuery not available. Please check dependancies with \'composer update\'')"></script>
     <script src="lib/js/Pie.js"></script>
 </head>
 <body>
