@@ -13,8 +13,8 @@
 <body>
 
 <ul>
-    <li><label for="width">Largeur (Px) :</label><input id="width" type="number" value="200"/></li>
-    <li><label for="height">Hauteur (Px) :</label><input id="height" type="number" value="200"/></li>
+    <li><label for="width">Largeur (Px) :</label><input id="width" type="number" value="400"/></li>
+    <li><label for="height">Hauteur (Px) :</label><input id="height" type="number" value="400"/></li>
     <li><label for="arcIn">Début de l'arc [0,1] :</label><input id="arcIn" type="number" value="0.60"/></li>
     <li><label for="arcOut">Fin de l'arc [0,1] :</label><input id="arcOut" type="number" value="0.95"/></li>
     <li><label for="arcPad">Espace entre valeur :</label><input id="arcPad" type="number" value="0.02"/></li>

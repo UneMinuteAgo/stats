@@ -93,12 +93,12 @@ function Pie(){
 
         return d3.scaleOrdinal().domain(
             data.map(function(el) {
-                return el.name
+                return el.label
             })
         ).range(
             d3.quantize(function(t){
                 return d3.interpolateSpectral(t * 0.8 + 0.1);
-            }, data.length)
+            }, data.length)//.reverse()
         );
 
         // d3.interpolateSpectral(x)
@@ -135,7 +135,7 @@ function Pie(){
         // Création du moteur de dispatch des données en Pie
         var pie = d3.pie()
             .padAngle(self._arcPad) // Angle de séparation des différentes valeur
-            //.sort(null)             // Default : X > x
+            .sort(null)             // Default : X > x
             .value(mapFn);          // Function pour trouver la valeur utile
 
         // Répartition des données en part représentative en fonction de leur valeur utile
@@ -146,7 +146,7 @@ function Pie(){
 
         // Production du graph
         //-- Selectionner le SVG cible
-        var svg = d3.select("svg");
+        var svg = d3.select("svg:last-child");
 
         //-- Création des portions de valeurs
         var g = svg.append('g');
@@ -170,13 +170,13 @@ function Pie(){
             .append("path")
             // Définir la couleur de remplissage
             .attr('fill', function(d){
-                return color(d.data.name)
+                return color(d.data.label)
             })
             // Définir la valeur de D pour la shape PATH (cf SVG)
             .attr('d', self.arc())
             // Introduction d'un titre
             .append('title').text(function(d) {
-            return d.data.name;
+            return d.data.label;
         });
 
         //-- Création des labels
@@ -201,7 +201,7 @@ function Pie(){
             .style("font-size", "0.75rem")
             .style("font-weight", "bold")
             .text(function(d){
-                return d.data.name;
+                return d.data.label;
             });
 
         g.selectAll("text").filter(function(d) {
@@ -212,7 +212,7 @@ function Pie(){
             .attr("x", 0)
             .attr("y", "0.6rem")
             .text(function(d) {
-                return d.data.val.toLocaleString();
+                return d.data.value.toLocaleString();
             });
     };
 
@@ -303,16 +303,29 @@ function Pie(){
         return self;
     };
 
-    self.load = function(file) {
+    self.load = function() {
         var select = document.querySelector('#xmlFile');
 
-        new xhrQuery().target("lib/iface/occupation.php").values("file=" + select.value).callbacks(function(e) {
-            document.querySelectorAll('svg').forEach(function(el) {
-                el.parentNode.removeChild(el);
-            });
+        document.querySelectorAll('svg').forEach(function(el) {
+            el.parentNode.removeChild(el);
+        });
+
+        new xhrQuery().target("lib/iface/getStats.php").values(
+            "file=" + select.value,
+            "data=controlaccess:occupation",
+            "nbResultValue=" + 10
+        ).callbacks(function(e) {
             console.log(e);
-            self.target(document.body).make(JSON.parse(e), function(d){return d.value;})
-        }).send()
+            self.target(document.body).make(JSON.parse(e), function(d){return d.value;});
+        }).send();
+
+        new xhrQuery().target("lib/iface/getStats.php").values(
+            "file=" + select.value,
+            "data=controlaccess:genreform",
+            "nbResultValue=" + 10
+        ).callbacks(function(e) {
+            self.target(document.body).make(JSON.parse(e), function(d){return d.value;});
+        }).send();
     };
 
     return self;
@@ -330,20 +343,7 @@ function applySettings() {
     var arcOut = document.querySelector("#arcOut").value;
     var arcPad = document.querySelector("#arcPad").value;
 
-    PIE.size(width, height).arcShape(arcIn, arcOut, arcPad).target(document.body).make(data, function(c) {
-        return c.val;
-    });
-
-    // PIE.target().target(document.body).make(data, function(c) {
-    //     return c.val;
-    // });
+    PIE.size(width, height).arcShape(arcIn, arcOut, arcPad).load();
 }
-
-var data = [
-    {name: "Pomme", val: 1},
-    {name: "Poire", val: 2},
-    {name: "Pêche", val: 3},
-    {name: "Banane", val: 4}
-];
 
 var PIE = new Pie();
