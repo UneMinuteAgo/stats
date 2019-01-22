@@ -48,6 +48,8 @@ foreach ($aggragtes as $label => $value) {
 }
 $JSONData[0]['COMMA'] = '';
 
+// Allow Cross Origin
+header('Access-Control-Allow-Origin: *');
 
 // Génération du jeu de donnée JSON
 echo json_encode($JSONData);
