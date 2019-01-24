@@ -205,7 +205,7 @@ function Pie(){
             });
 
         g.selectAll("text").filter(function(d) {
-            console.log(d, d.endAngle - d.startAngle);
+            // console.log(d, d.endAngle - d.startAngle);
             return ((d.endAngle - d.startAngle) > 0.25);
         })
             .append("tspan")
@@ -315,7 +315,7 @@ function Pie(){
             "data=controlaccess:occupation",
             "nbResultValue=" + 10
         ).callbacks(function(e) {
-            console.log(e);
+            // console.log(e);
             self.target(document.body).make(JSON.parse(e), function(d){return d.value;});
         }).send();
 

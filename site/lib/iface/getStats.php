@@ -12,7 +12,7 @@ list($stack, $dataType) =  preg_split("/:/", $_POST['data']);
 // Ajustement des paramètres
 $nbResultValues = ($nbResultValues < 3) ? 0 : $nbResultValues;
 
-$ead = new SimpleXMLElement(file_get_contents($root . "/lib/xml/$srcFile"));
+$ead = new SimpleXMLElement(file_get_contents("$root/lib/xml/$srcFile"));
 
 $aggragtes = aggItemData($ead, $stack, $dataType, '', '');
 
@@ -46,7 +46,6 @@ foreach ($aggragtes as $label => $value) {
         "value" => $value
     ];
 }
-$JSONData[0]['COMMA'] = '';
 
 // Allow Cross Origin
 header('Access-Control-Allow-Origin: *');
