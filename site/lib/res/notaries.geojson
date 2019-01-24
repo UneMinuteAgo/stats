@@ -1,0 +1,155 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":  [ 2.355855,48.862262 ]
+            },
+            "properties": {
+                "ETUDE":"LXVII",
+                "NOTAIRE":"DESCHAMBEAUX Jean-Joseph",
+                "RUE":"rue Michel-le-Comte",
+                "COMMUNE":"Paris",
+                "DATES_EXTREMES":"5 décembre 1724 - 17 avril 1735",
+                "result_label":"Rue Michel le Comte 75003 Paris",
+                "result_score":0.94,
+                "result_type":"street",
+                "result_id":"75103_6336_ee7594",
+                "result_housenumber":null,
+                "result_name":"Rue Michel le Comte",
+                "result_street":"",
+                "result_postcode":75003,
+                "result_city":"Paris",
+                "result_context":"75, Paris, Île-de-France",
+                "result_citycode":75103
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":  [ 2.336852,48.853774 ]
+            },
+            "properties": {
+                "ETUDE":"I",
+                "NOTAIRE":"ROYER Claude II",
+                "RUE":"rue de Buci",
+                "COMMUNE":"Paris",
+                "DATES_EXTREMES":"27 février 1778 - 2 juillet 1781",
+                "result_label":"Rue de Buci 75006 Paris",
+                "result_score":0.94,
+                "result_type":"street",
+                "result_id":"75106_1360_ae9a44",
+                "result_housenumber":null,
+                "result_name":"Rue de Buci",
+                "result_street":"",
+                "result_postcode":75006,
+                "result_city":"Paris",
+                "result_context":"75, Paris, Île-de-France",
+                "result_citycode":75106
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":  [ 2.363957,48.854326 ]
+            },
+            "properties": {
+                "ETUDE":"LXXII",
+                "NOTAIRE":"LE CLERC Marc",
+                "RUE":"rue Saint-Antoine",
+                "COMMUNE":"Paris",
+                "DATES_EXTREMES":"20 mai 1701 - 17 janvier 1730",
+                "result_label":"Rue Saint-Antoine 75004 Paris",
+                "result_score":0.95,
+                "result_type":"street",
+                "result_id":"75104_XXXX_4d0ed3",
+                "result_housenumber":null,
+                "result_name":"Rue Saint-Antoine",
+                "result_street":"",
+                "result_postcode":75004,
+                "result_city":"Paris",
+                "result_context":"75, Paris, Île-de-France",
+                "result_citycode":75104
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":  [ 2.331582,48.86948 ]
+            },
+            "properties": {
+                "ETUDE":"LXXXIV",
+                "NOTAIRE":"GIRET DE VALVILLE André-Nicolas",
+                "RUE":"rue Daunou",
+                "COMMUNE":"Paris",
+                "DATES_EXTREMES":"14 août 1794 - 9 novembre 1799",
+                "result_label":"Rue Daunou 75002 Paris",
+                "result_score":0.94,
+                "result_type":"street",
+                "result_id":"75102_2591_768a99",
+                "result_housenumber":null,
+                "result_name":"Rue Daunou",
+                "result_street":"",
+                "result_postcode":75002,
+                "result_city":"Paris",
+                "result_context":"75, Paris, Île-de-France",
+                "result_citycode":75102
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":  [ 2.338081,48.861863 ]
+            },
+            "properties": {
+                "ETUDE":"CVIII",
+                "NOTAIRE":"MILLON-DAILLY Augustin",
+                "RUE":"rue Rivoli",
+                "COMMUNE":"Paris",
+                "DATES_EXTREMES":"12 janvier 1799 - 17 mars 1819",
+                "result_label":"Rue de Rivoli 75001 Paris",
+                "result_score":0.8,
+                "result_type":"street",
+                "result_id":"75101_8249_2e3357",
+                "result_housenumber":null,
+                "result_name":"Rue de Rivoli",
+                "result_street":"",
+                "result_postcode":75001,
+                "result_city":"Paris",
+                "result_context":"75, Paris, Île-de-France",
+                "result_citycode":75101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":  [ 2.332825,48.864958 ]
+            },
+            "properties": {
+                "ETUDE":"LIX",
+                "NOTAIRE":"FOURCHY André",
+                "RUE":"11 rue Pyramides",
+                "COMMUNE":"Paris",
+                "DATES_EXTREMES":"1898 - 1902",
+                "result_label":"11 Rue des Pyramides 75001 Paris",
+                "result_score":0.8,
+                "result_type":"housenumber",
+                "result_id":"ADRNIVX_0000000270760014",
+                "result_housenumber":11,
+                "result_name":"Rue des Pyramides",
+                "result_street":"",
+                "result_postcode":75001,
+                "result_city":"Paris",
+                "result_context":"75, Paris, Île-de-France",
+                "result_citycode":75101
+            }
+        }
+    ]
+}
