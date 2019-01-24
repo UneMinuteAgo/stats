@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
     <link rel="stylesheet" href="lib/css/map.css" />
     <script type="text/javascript" src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script type="text/javascript" src="lib/vendor/uneminuteago/maps/Leaflet_with_GEOJSON/www/lib/js/Map.js"></script>
     <title>Leaflet Map</title>
 </head>
-<body>
+<body onload="new Map().target('map').make();">
     <div id="map"></div>
 </body>
 </html>
