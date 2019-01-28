@@ -4,9 +4,9 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 
 require_once $root . "/lib/func/aggItemData.php";
 
-$srcFile = $_POST['file'];
-$nbResultValues = intval($_POST['nbResultValue']);
-list($stack, $dataType) =  preg_split("/:/", $_POST['data']);
+$srcFile = $_REQUEST['file'];
+$nbResultValues = intval($_REQUEST['nbResultValue']);
+list($stack, $dataType) =  preg_split("/:/", $_REQUEST['data']);
 
 
 // Ajustement des paramètres
