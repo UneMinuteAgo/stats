@@ -1,4 +1,4 @@
-# Graphiques Statistiques
+# Interfaces de visualisation des données
 
 Dans le cadre du Hackathon des Archives Nationales 2018, l'un des axes de travail
 était la visualisation des données d'une fiche producteur.
@@ -11,6 +11,10 @@ cours de consultation :
 * L'activité du notaire dans le temps.
 * Les dix clients les plus suivis par le notaire
 * L'aire d'influence du notaire
+
+Si vous souhaitez être informé des mise à jours majeurs
+de cette documentation, veuillez watcher l'issue suivante 
+sur GitHub : ``https://github.com/UneMinuteAgo/stats/issues/1``
 
 
 ## Installation du projet
@@ -93,19 +97,31 @@ pour procéder à l'installation des dépendances.
 Lancez une invite de commande et tapez la commande suivante :
 
 ````git
-git clone https://github.com/UneMinuteAgo/stats.git
+git clone --recurse-submodules https://github.com/UneMinuteAgo/stats.git
 ````
 
 Le dossier cloné ``stats`` se trouvera à l'emplacement où vous avez tapez
 la commande.
 Aller dans le dossier ``stats`` à l'aide de la commande `cd stats`.
 
+Si le dossier à déjà été cloné,
+pour intégrer les sous-modules, exécutez la commande suivante :
+
+````git
+git submodule update --init --recursive
+````
+
 
 
 #### Installation de Composer
 
-Si vous n'avez pas ``composer``, suivez les instructions suivantes.
+L'installation présente via Docker installe et exécute la commande
+qui procède à l'installation des dépendances.
+
+Si vous souhaitez utiliser les ressources sur votre propre installation
+et que vous n'avez pas ``composer``, suivez les instructions suivantes.
 Si vous avez déjà ``composer``, vous pouvez passer au chapitre suivant.
+
 
 Dans une invite de commande, tapez les commandes suivantes :
 
@@ -141,3 +157,100 @@ S'il y à eu des mises à jour, il faudra
 les appliquer à l'aide de la commande ``git pull origin master``.
 Cela implique que vous n'ayez modifiés aucun fichier.
 
+Pour mettre à jour les sous-modules, lancer la commande suivante :
+
+````git
+git submodule update --remote --merge
+````
+
+Pour mettre à jour les dépendances PHP,
+tapez la commande suivante :
+
+````bash
+composer update
+````
+
+
+
+
+
+
+## Interfaces de visualisation
+
+Le projet étant fourni avec un ``docker-compose.yml``,
+très simplement utilisable à l'aide de la commande ``make install``,
+les URL présentés dans la suite de la documentation se baserons
+sur des adresses en ``localhost`` pointant vers le site web
+installé dans Docker.
+
+Si vous utilisez les ressources sur une autre installation,
+pensez à adapter les chemins (si nécessaire).
+
+
+### Interfaces pour les Pies Charts
+
+L'interface pour les Pies Charts sert à obtenir
+depuis un fichier XML producteur un jeu de donnée calculé afin de prduire
+un graphique. Le Pie Chart est le graphique que nous avons choisis,
+mais ce jeu de donnée peu être utilisé pour n'importe quel autre graphique<sup>1</sup>.
+
+<sup>1</sup> Compatibilité à verifier sur les autres format de graphiques.
+
+
+#### Prévisualisation en standalone
+
+La projet offre par le biais de la page ``http://localhost/index.php``,
+une interface pour visualiser, tester et maniupler un graphique.
+Cette page utilise le script (`site/lib/iface/getStats.php`) qui produit 
+le jeu de donnée exploitable par le moteur ``Pie``
+disponible dans `site/lib/js/Pie.js`.
+
+
+
+#### Obtention des données via "API"
+
+L'inteface ``site/lib/iface/getStats.php`` produit un JSON
+à partir d'un fichier XML producteur.
+Dans le cadre de ce projet,
+les fichiers XML doivent se trouver dans le dossier ``site/lib/xml``.
+
+Cette interface accepte les requêtes via les méthodes ``GET`` and `POST`.
+Pour la documentation, nous opterons pour la méthode ``GET`` qui est plus
+simple et plus visuelle.
+
+Voici la liste des arguments acceptés :
+
+* ``file`` : Nom du fichier XML à traiter (de type `String`).
+* ``nbResultValue`` : Défini le x premières valeurs que doit retourner l'interface.
+Le reste est aggrégé sous l'unité ``Autres``. L'argument est de type `Interger` et doit
+être supérieur ou égale à ``3`` pour être effectif.
+* ``data`` : Il s'agit de l'information que l'on souhaite aggrégé depuis l'XML de DTD `ead` au niveau d'un item. Exemple pour aggrégé les occupations, l'argument
+vaut ``controlaccess:occupation``
+
+URL pour récupérer les 10 premières occupations du notaire **Claude Royer II** :
+``http://localhost/lib/iface/getStats.php?file=FRAN_IR_041106.xml&data=controlaccess:occupation&nbResultValue=10``.
+
+Vous pouvez tester directement sur l'interface en ligne
+utilisé pour le Hackathon :
+
+``https://hackhan.neoblaster.fr/lib/iface/getStats.php?file=FRAN_IR_041106.xml&data=controlaccess:occupation&nbResultValue=10``
+
+Resultat : 
+
+````json
+[{"label":"commer\u00e7ant","value":88},{"label":"conseiller du roi","value":26},{"label":"avocat au parlement (Ancien R\u00e9gime)","value":22},{"label":"officier (arm\u00e9e)","value":21},{"label":"officier de la maison militaire du roi (Ancien R\u00e9gime)","value":21},{"label":"procureur de justice (Ancien R\u00e9gime)","value":16},{"label":"ma\u00e7on","value":15},{"label":"employ\u00e9 de maison","value":13},{"label":"notaire","value":12},{"label":"jardinier","value":12},{"label":"Autres","value":320}]
+````
+
+
+
+
+
+
+### Interfaces pour les GeoJson
+
+
+#### Prévisualisation en standalone
+
+
+
+#### Obtention des données via "API"
