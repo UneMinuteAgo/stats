@@ -50,7 +50,7 @@ mv composer.phar /usr/local/bin/composer
 #ln -s /var/www/hackhan/src/jarvis.php /usr/local/bin/jarvis
 
 # Récupération des dépendances
-#cd /var/www/jarvis
+cd /var/www/hackhan
 composer create-project >> /docker.log 2>&1 || composer update >> /docker.log 2>&1
 
 
